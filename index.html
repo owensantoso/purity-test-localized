@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Purity Test Localized</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Private-by-default multilingual checklist</p>
+          <h1 id="title">Purity Test Localized</h1>
+          <p id="intro" class="intro">Loading...</p>
+        </div>
+        <div class="toolbar" aria-label="Test controls">
+          <label class="field">
+            <span id="language-label">Language</span>
+            <select id="language-select"></select>
+          </label>
+          <label class="compare-toggle">
+            <input id="source-compare" type="checkbox">
+            <span id="source-compare-label">Show English source beside translation</span>
+          </label>
+        </div>
+      </header>
+
+      <section class="score-panel" aria-label="Score">
+        <div>
+          <span id="score-label" class="metric-label">Score</span>
+          <strong id="score" class="score">100</strong>
+        </div>
+        <div>
+          <span id="selected-label" class="metric-label">Selected</span>
+          <strong id="selected-count" class="selected-count">0 / 100</strong>
+        </div>
+        <button id="reset" type="button">Reset</button>
+      </section>
+
+      <section id="status-panel" class="status-panel" hidden>
+        <h2 id="status-title">Canonical item text is not loaded yet.</h2>
+        <p id="status-body"></p>
+      </section>
+
+      <section>
+        <ol id="item-list" class="item-list"></ol>
+      </section>
+
+      <section class="checked-panel">
+        <button id="toggle-checked" type="button">Show checked items</button>
+        <ol id="checked-list" class="checked-list" hidden></ol>
+      </section>
+
+      <p id="privacy-note" class="privacy-note"></p>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

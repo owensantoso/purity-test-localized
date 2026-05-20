@@ -1,0 +1,45 @@
+{
+  "en": {
+    "languageLabel": "Language",
+    "sourcePendingTitle": "Canonical item text is not loaded yet.",
+    "sourcePendingBody": "The app is ready for the exact source item list, but the public repo does not include copied third-party checklist text. Add the canonical source items to the English JSON file, then add matching Japanese and Vietnamese item IDs.",
+    "selectedCount": "Selected",
+    "scoreLabel": "Score",
+    "reset": "Reset",
+    "showChecked": "Show checked items",
+    "hideChecked": "Hide checked items",
+    "noCheckedItems": "No checked items yet.",
+    "privacyNote": "Answers are kept in this browser only. No result data is submitted by this app.",
+    "contentStatus": "Content status",
+    "sourceCompare": "Show English source beside translation"
+  },
+  "ja": {
+    "languageLabel": "言語",
+    "sourcePendingTitle": "正確な原文項目はまだ読み込まれていません。",
+    "sourcePendingBody": "アプリは正確な原文リストを追加できる状態ですが、公開リポジトリには第三者サイトのチェックリスト本文をコピーしていません。まず英語JSONに正式な原文項目を追加し、同じIDで日本語とベトナム語を追加してください。",
+    "selectedCount": "選択数",
+    "scoreLabel": "スコア",
+    "reset": "リセット",
+    "showChecked": "選択項目を表示",
+    "hideChecked": "選択項目を隠す",
+    "noCheckedItems": "まだ選択された項目はありません。",
+    "privacyNote": "回答はこのブラウザ内だけに保存されます。このアプリは結果データを送信しません。",
+    "contentStatus": "コンテンツ状態",
+    "sourceCompare": "翻訳の横に英語原文を表示"
+  },
+  "vi": {
+    "languageLabel": "Ngôn ngữ",
+    "sourcePendingTitle": "Chưa tải nội dung gốc chính xác.",
+    "sourcePendingBody": "Ứng dụng đã sẵn sàng để thêm danh sách mục gốc chính xác, nhưng kho công khai này không sao chép nguyên văn danh sách từ trang bên thứ ba. Hãy thêm các mục gốc vào tệp JSON tiếng Anh, rồi thêm tiếng Nhật và tiếng Việt với cùng ID.",
+    "selectedCount": "Đã chọn",
+    "scoreLabel": "Điểm",
+    "reset": "Đặt lại",
+    "showChecked": "Hiện mục đã chọn",
+    "hideChecked": "Ẩn mục đã chọn",
+    "noCheckedItems": "Chưa có mục nào được chọn.",
+    "privacyNote": "Câu trả lời chỉ được lưu trong trình duyệt này. Ứng dụng này không gửi dữ liệu kết quả.",
+    "contentStatus": "Trạng thái nội dung",
+    "sourceCompare": "Hiện tiếng Anh gốc bên cạnh bản dịch"
+  }
+}
+

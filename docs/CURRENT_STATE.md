@@ -17,7 +17,10 @@ This repo is a new scaffold for a faithful multilingual purity-test app.
 
 - `content/tests/rice-classic/manifest.json`: test metadata and language registry.
 - `content/tests/rice-classic/en.json`: source-language structure, awaiting canonical item text.
-- `content/tests/rice-classic/ja.json`: example translation structure, kept incomplete until source items are finalized.
+- `content/tests/rice-classic/ja.json`: Japanese translation structure, kept incomplete until source items are finalized.
+- `content/tests/rice-classic/vi.json`: Vietnamese translation structure, kept incomplete until source items are finalized.
+- `content/ui.json`: English, Japanese, and Vietnamese interface strings.
+- `index.html` and `src/`: no-build static web app shell.
 - `scripts/validate-content.mjs`: content validator.
 - `docs/plans/MVP.md`: first implementation slice.
 
@@ -29,3 +32,8 @@ Fill `content/tests/rice-classic/en.json` with the exact canonical source items,
 npm run validate:content
 ```
 
+Use strict validation only after the canonical item list has been added:
+
+```bash
+npm run validate:content:strict
+```

@@ -18,7 +18,12 @@
       "label": "日本語",
       "file": "ja.json",
       "status": "draft"
+    },
+    {
+      "code": "vi",
+      "label": "Tiếng Việt",
+      "file": "vi.json",
+      "status": "draft"
     }
   ]
 }
-
