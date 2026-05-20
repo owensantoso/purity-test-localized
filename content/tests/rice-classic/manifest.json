@@ -1,0 +1,24 @@
+{
+  "testId": "rice-classic",
+  "sourceLanguage": "en",
+  "itemCount": 100,
+  "score": {
+    "startsAt": 100,
+    "subtractPerCheckedItem": 1
+  },
+  "languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "file": "en.json",
+      "status": "source-pending"
+    },
+    {
+      "code": "ja",
+      "label": "日本語",
+      "file": "ja.json",
+      "status": "draft"
+    }
+  ]
+}
+

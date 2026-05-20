@@ -1,0 +1,10 @@
+{
+  "name": "purity-test-localized",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate:content": "node scripts/validate-content.mjs"
+  }
+}
+
