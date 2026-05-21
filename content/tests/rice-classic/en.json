@@ -3,5 +3,406 @@
   "label": "English",
   "title": "Rice Purity Test",
   "intro": "Click on every item you have done.",
-  "items": []
+  "items": [
+    {
+      "id": 1,
+      "text": "Held hands romantically?"
+    },
+    {
+      "id": 2,
+      "text": "Been on a date?"
+    },
+    {
+      "id": 3,
+      "text": "Been in a relationship?"
+    },
+    {
+      "id": 4,
+      "text": "Danced without leaving room for Jesus?"
+    },
+    {
+      "id": 5,
+      "text": "Kissed a non-family member?"
+    },
+    {
+      "id": 6,
+      "text": "Kissed a non-family member on the lips?"
+    },
+    {
+      "id": 7,
+      "text": "French kissed?"
+    },
+    {
+      "id": 8,
+      "text": "French kissed in public?"
+    },
+    {
+      "id": 9,
+      "text": "Kissed on the neck?"
+    },
+    {
+      "id": 10,
+      "text": "Kissed horizontally?"
+    },
+    {
+      "id": 11,
+      "text": "Given or received a hickey?"
+    },
+    {
+      "id": 12,
+      "text": "Kissed or been kissed on the breast?"
+    },
+    {
+      "id": 13,
+      "text": "Kissed someone below the belt?"
+    },
+    {
+      "id": 14,
+      "text": "Kissed for more than two hours consecutively?"
+    },
+    {
+      "id": 15,
+      "text": "Played a game involving stripping?"
+    },
+    {
+      "id": 16,
+      "text": "Seen or been seen by another person in a sensual context?"
+    },
+    {
+      "id": 17,
+      "text": "Masturbated?"
+    },
+    {
+      "id": 18,
+      "text": "Masturbated to a picture or video?"
+    },
+    {
+      "id": 19,
+      "text": "Masturbated while someone else was in the room?"
+    },
+    {
+      "id": 20,
+      "text": "Been caught masturbating?"
+    },
+    {
+      "id": 21,
+      "text": "Masturbated with an inanimate object?"
+    },
+    {
+      "id": 22,
+      "text": "Seen or read pornographic material?"
+    },
+    {
+      "id": 23,
+      "text": "Massaged or been massaged sensually?"
+    },
+    {
+      "id": 24,
+      "text": "Gone through the motions of intercourse while fully dressed?"
+    },
+    {
+      "id": 25,
+      "text": "Undressed or been undressed by a MPS (member of the preferred sex)?"
+    },
+    {
+      "id": 26,
+      "text": "Showered with a MPS?"
+    },
+    {
+      "id": 27,
+      "text": "Fondled or had your butt cheeks fondled?"
+    },
+    {
+      "id": 28,
+      "text": "Fondled or had your breasts fondled?"
+    },
+    {
+      "id": 29,
+      "text": "Fondled or had your genitals fondled?"
+    },
+    {
+      "id": 30,
+      "text": "Had or given “blue balls”?"
+    },
+    {
+      "id": 31,
+      "text": "Had an orgasm due to someone else’s manipulation?"
+    },
+    {
+      "id": 32,
+      "text": "Sent a sexually explicit text or instant message?"
+    },
+    {
+      "id": 33,
+      "text": "Sent or received sexually explicit photographs?"
+    },
+    {
+      "id": 34,
+      "text": "Engaged in sexually explicit activity over video chat?"
+    },
+    {
+      "id": 35,
+      "text": "Cheated on a significant other during a relationship?"
+    },
+    {
+      "id": 36,
+      "text": "Purchased contraceptives?"
+    },
+    {
+      "id": 37,
+      "text": "Gave oral sex?"
+    },
+    {
+      "id": 38,
+      "text": "Received oral sex?"
+    },
+    {
+      "id": 39,
+      "text": "Ingested someone else’s genital secretion?"
+    },
+    {
+      "id": 40,
+      "text": "Used a sex toy with a partner?"
+    },
+    {
+      "id": 41,
+      "text": "Spent the night with a MPS?"
+    },
+    {
+      "id": 42,
+      "text": "Been walked in on while engaging in a sexual act?"
+    },
+    {
+      "id": 43,
+      "text": "Kicked a roommate out to commit a sexual act?"
+    },
+    {
+      "id": 44,
+      "text": "Ingested alcohol in a non-religious context?"
+    },
+    {
+      "id": 45,
+      "text": "Played a drinking game?"
+    },
+    {
+      "id": 46,
+      "text": "Been drunk?"
+    },
+    {
+      "id": 47,
+      "text": "Faked sobriety to parents or teachers?"
+    },
+    {
+      "id": 48,
+      "text": "Had severe memory loss due to alcohol?"
+    },
+    {
+      "id": 49,
+      "text": "Used tobacco?"
+    },
+    {
+      "id": 50,
+      "text": "Used marijuana?"
+    },
+    {
+      "id": 51,
+      "text": "Used a drug stronger than marijuana?"
+    },
+    {
+      "id": 52,
+      "text": "Used methamphetamine, crack cocaine, PCP, horse tranquilizers or heroin?"
+    },
+    {
+      "id": 53,
+      "text": "Been sent to the office of a principal, dean or judicial affairs representative for a disciplinary infraction?"
+    },
+    {
+      "id": 54,
+      "text": "Been put on disciplinary probation or suspended?"
+    },
+    {
+      "id": 55,
+      "text": "Urinated in public?"
+    },
+    {
+      "id": 56,
+      "text": "Gone skinny-dipping?"
+    },
+    {
+      "id": 57,
+      "text": "Gone streaking?"
+    },
+    {
+      "id": 58,
+      "text": "Seen a stripper?"
+    },
+    {
+      "id": 59,
+      "text": "Had the police called on you?"
+    },
+    {
+      "id": 60,
+      "text": "Run from the police?"
+    },
+    {
+      "id": 61,
+      "text": "Had the police question you?"
+    },
+    {
+      "id": 62,
+      "text": "Had the police handcuff you?"
+    },
+    {
+      "id": 63,
+      "text": "Been arrested?"
+    },
+    {
+      "id": 64,
+      "text": "Been convicted of a crime?"
+    },
+    {
+      "id": 65,
+      "text": "Been convicted of a felony?"
+    },
+    {
+      "id": 66,
+      "text": "Committed an act of vandalism?"
+    },
+    {
+      "id": 67,
+      "text": "Had sexual intercourse?"
+    },
+    {
+      "id": 68,
+      "text": "Had sexual intercourse three or more times in one night?"
+    },
+    {
+      "id": 69,
+      "text": "?"
+    },
+    {
+      "id": 70,
+      "text": "Had sexual intercourse 10 or more times?"
+    },
+    {
+      "id": 71,
+      "text": "Had sexual intercourse in four or more positions?"
+    },
+    {
+      "id": 72,
+      "text": "Had sexual intercourse with a stranger or person you met within 24 hours?"
+    },
+    {
+      "id": 73,
+      "text": "Had sexual intercourse in a motor vehicle?"
+    },
+    {
+      "id": 74,
+      "text": "Had sexual intercourse outdoors?"
+    },
+    {
+      "id": 75,
+      "text": "Had sexual intercourse in public?"
+    },
+    {
+      "id": 76,
+      "text": "Had sexual intercourse in a swimming pool or hot tub?"
+    },
+    {
+      "id": 77,
+      "text": "Had sexual intercourse in a bed not belonging to you or your partner?"
+    },
+    {
+      "id": 78,
+      "text": "Had sexual intercourse while you or your partner’s parents were in the same home?"
+    },
+    {
+      "id": 79,
+      "text": "Had sexual intercourse with non-participating third party in the same room?"
+    },
+    {
+      "id": 80,
+      "text": "Joined the mile high club?"
+    },
+    {
+      "id": 81,
+      "text": "Participated in a “booty call” with a partner whom you were not in a relationship with?"
+    },
+    {
+      "id": 82,
+      "text": "Traveled 100 or more miles for the primary purpose of sexual intercourse?"
+    },
+    {
+      "id": 83,
+      "text": "Had sexual intercourse with a partner with a 3 or more year age difference?"
+    },
+    {
+      "id": 84,
+      "text": "Had sexual intercourse with a virgin?"
+    },
+    {
+      "id": 85,
+      "text": "Had sexual intercourse without a condom?"
+    },
+    {
+      "id": 86,
+      "text": "Had a STI test due to reasonable suspicion?"
+    },
+    {
+      "id": 87,
+      "text": "Had a STI?"
+    },
+    {
+      "id": 88,
+      "text": "Had a threesome?"
+    },
+    {
+      "id": 89,
+      "text": "Attended an orgy?"
+    },
+    {
+      "id": 90,
+      "text": "Had two or more distinct acts of sexual intercourse with two or more people within 24 hours?"
+    },
+    {
+      "id": 91,
+      "text": "Had sexual intercourse with five or more partners?"
+    },
+    {
+      "id": 92,
+      "text": "Been photographed or filmed during sexual intercourse by yourself or others?"
+    },
+    {
+      "id": 93,
+      "text": "Had period sex?"
+    },
+    {
+      "id": 94,
+      "text": "Had anal sex?"
+    },
+    {
+      "id": 95,
+      "text": "Had a pregnancy scare?"
+    },
+    {
+      "id": 96,
+      "text": "Impregnated someone or been impregnated?"
+    },
+    {
+      "id": 97,
+      "text": "Paid or been paid for a sexual act?"
+    },
+    {
+      "id": 98,
+      "text": "Committed an act of voyeurism?"
+    },
+    {
+      "id": 99,
+      "text": "Committed an act of incest?"
+    },
+    {
+      "id": 100,
+      "text": "Engaged in bestiality?"
+    }
+  ]
 }

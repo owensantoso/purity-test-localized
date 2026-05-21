@@ -138,6 +138,10 @@ for (const language of manifest.languages) {
     continue;
   }
 
+  if (!strict && language.status !== "ready" && languageIds.length === 0) {
+    continue;
+  }
+
   if (!sameIds(languageIds, sourceIds)) {
     fail(`${language.code} item IDs do not match source language IDs`);
   }

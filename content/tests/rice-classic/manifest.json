@@ -11,19 +11,19 @@
       "code": "en",
       "label": "English",
       "file": "en.json",
-      "status": "source-pending"
+      "status": "ready"
     },
     {
       "code": "ja",
       "label": "日本語",
       "file": "ja.json",
-      "status": "draft"
+      "status": "ready"
     },
     {
       "code": "vi",
       "label": "Tiếng Việt",
       "file": "vi.json",
-      "status": "draft"
+      "status": "ready"
     }
   ]
 }

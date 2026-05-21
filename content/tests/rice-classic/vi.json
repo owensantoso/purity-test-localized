@@ -3,5 +3,406 @@
   "label": "Tiếng Việt",
   "title": "Bài Kiểm Tra Rice Purity",
   "intro": "Chọn tất cả những mục bạn đã từng làm.",
-  "items": []
+  "items": [
+    {
+      "id": 1,
+      "text": "Từng nắm tay theo kiểu lãng mạn?"
+    },
+    {
+      "id": 2,
+      "text": "Từng đi hẹn hò?"
+    },
+    {
+      "id": 3,
+      "text": "Từng ở trong một mối quan hệ?"
+    },
+    {
+      "id": 4,
+      "text": "Từng nhảy mà không chừa chỗ cho Chúa Jesus?"
+    },
+    {
+      "id": 5,
+      "text": "Từng hôn một người không phải thành viên gia đình?"
+    },
+    {
+      "id": 6,
+      "text": "Từng hôn môi một người không phải thành viên gia đình?"
+    },
+    {
+      "id": 7,
+      "text": "Từng hôn kiểu Pháp?"
+    },
+    {
+      "id": 8,
+      "text": "Từng hôn kiểu Pháp ở nơi công cộng?"
+    },
+    {
+      "id": 9,
+      "text": "Từng hôn lên cổ?"
+    },
+    {
+      "id": 10,
+      "text": "Từng hôn khi nằm ngang?"
+    },
+    {
+      "id": 11,
+      "text": "Từng để lại hoặc nhận vết hickey?"
+    },
+    {
+      "id": 12,
+      "text": "Từng hôn hoặc được hôn lên ngực?"
+    },
+    {
+      "id": 13,
+      "text": "Từng hôn ai đó ở dưới thắt lưng?"
+    },
+    {
+      "id": 14,
+      "text": "Từng hôn liên tục hơn hai giờ?"
+    },
+    {
+      "id": 15,
+      "text": "Từng chơi trò có liên quan đến cởi đồ?"
+    },
+    {
+      "id": 16,
+      "text": "Từng nhìn thấy hoặc bị người khác nhìn thấy trong bối cảnh gợi cảm?"
+    },
+    {
+      "id": 17,
+      "text": "Từng thủ dâm?"
+    },
+    {
+      "id": 18,
+      "text": "Từng thủ dâm theo ảnh hoặc video?"
+    },
+    {
+      "id": 19,
+      "text": "Từng thủ dâm khi có người khác trong phòng?"
+    },
+    {
+      "id": 20,
+      "text": "Từng bị bắt gặp khi đang thủ dâm?"
+    },
+    {
+      "id": 21,
+      "text": "Từng thủ dâm bằng một vật vô tri?"
+    },
+    {
+      "id": 22,
+      "text": "Từng xem hoặc đọc tài liệu khiêu dâm?"
+    },
+    {
+      "id": 23,
+      "text": "Từng mát-xa hoặc được mát-xa theo cách gợi cảm?"
+    },
+    {
+      "id": 24,
+      "text": "Từng mô phỏng động tác giao hợp khi vẫn mặc đầy đủ quần áo?"
+    },
+    {
+      "id": 25,
+      "text": "Từng được một MPS (người thuộc giới tính bạn ưa thích) cởi đồ, hoặc từng cởi đồ cho MPS?"
+    },
+    {
+      "id": 26,
+      "text": "Từng tắm cùng một MPS?"
+    },
+    {
+      "id": 27,
+      "text": "Từng sờ hoặc bị sờ mông?"
+    },
+    {
+      "id": 28,
+      "text": "Từng sờ hoặc bị sờ ngực?"
+    },
+    {
+      "id": 29,
+      "text": "Từng sờ hoặc bị sờ bộ phận sinh dục?"
+    },
+    {
+      "id": 30,
+      "text": "Từng bị hoặc khiến người khác bị “blue balls”?"
+    },
+    {
+      "id": 31,
+      "text": "Từng đạt cực khoái do người khác kích thích?"
+    },
+    {
+      "id": 32,
+      "text": "Từng gửi tin nhắn hoặc tin nhắn nhanh có nội dung tình dục rõ ràng?"
+    },
+    {
+      "id": 33,
+      "text": "Từng gửi hoặc nhận ảnh có nội dung tình dục rõ ràng?"
+    },
+    {
+      "id": 34,
+      "text": "Từng tham gia hoạt động tình dục rõ ràng qua video chat?"
+    },
+    {
+      "id": 35,
+      "text": "Từng lừa dối người yêu trong khi đang trong một mối quan hệ?"
+    },
+    {
+      "id": 36,
+      "text": "Từng mua biện pháp tránh thai?"
+    },
+    {
+      "id": 37,
+      "text": "Từng quan hệ tình dục bằng miệng cho người khác?"
+    },
+    {
+      "id": 38,
+      "text": "Từng được quan hệ tình dục bằng miệng?"
+    },
+    {
+      "id": 39,
+      "text": "Từng nuốt dịch tiết sinh dục của người khác?"
+    },
+    {
+      "id": 40,
+      "text": "Từng dùng đồ chơi tình dục với bạn tình?"
+    },
+    {
+      "id": 41,
+      "text": "Từng qua đêm với một MPS?"
+    },
+    {
+      "id": 42,
+      "text": "Từng bị ai đó bước vào khi đang thực hiện một hành vi tình dục?"
+    },
+    {
+      "id": 43,
+      "text": "Từng đuổi bạn cùng phòng ra ngoài để thực hiện một hành vi tình dục?"
+    },
+    {
+      "id": 44,
+      "text": "Từng uống rượu/bia ngoài bối cảnh tôn giáo?"
+    },
+    {
+      "id": 45,
+      "text": "Từng chơi trò uống rượu?"
+    },
+    {
+      "id": 46,
+      "text": "Từng say rượu?"
+    },
+    {
+      "id": 47,
+      "text": "Từng giả vờ tỉnh táo trước cha mẹ hoặc giáo viên?"
+    },
+    {
+      "id": 48,
+      "text": "Từng mất trí nhớ nghiêm trọng do rượu?"
+    },
+    {
+      "id": 49,
+      "text": "Từng dùng thuốc lá?"
+    },
+    {
+      "id": 50,
+      "text": "Từng dùng cần sa?"
+    },
+    {
+      "id": 51,
+      "text": "Từng dùng một loại ma túy mạnh hơn cần sa?"
+    },
+    {
+      "id": 52,
+      "text": "Từng dùng methamphetamine, cocaine dạng crack, PCP, thuốc an thần cho ngựa hoặc heroin?"
+    },
+    {
+      "id": 53,
+      "text": "Từng bị gọi lên văn phòng hiệu trưởng, trưởng khoa hoặc đại diện tư pháp/kỷ luật vì vi phạm kỷ luật?"
+    },
+    {
+      "id": 54,
+      "text": "Từng bị quản chế kỷ luật hoặc bị đình chỉ?"
+    },
+    {
+      "id": 55,
+      "text": "Từng đi tiểu nơi công cộng?"
+    },
+    {
+      "id": 56,
+      "text": "Từng tắm khỏa thân?"
+    },
+    {
+      "id": 57,
+      "text": "Từng chạy khỏa thân nơi công cộng?"
+    },
+    {
+      "id": 58,
+      "text": "Từng xem vũ công thoát y?"
+    },
+    {
+      "id": 59,
+      "text": "Từng bị gọi cảnh sát đến?"
+    },
+    {
+      "id": 60,
+      "text": "Từng chạy trốn cảnh sát?"
+    },
+    {
+      "id": 61,
+      "text": "Từng bị cảnh sát hỏi chuyện?"
+    },
+    {
+      "id": 62,
+      "text": "Từng bị cảnh sát còng tay?"
+    },
+    {
+      "id": 63,
+      "text": "Từng bị bắt?"
+    },
+    {
+      "id": 64,
+      "text": "Từng bị kết án về một tội phạm?"
+    },
+    {
+      "id": 65,
+      "text": "Từng bị kết án trọng tội?"
+    },
+    {
+      "id": 66,
+      "text": "Từng thực hiện hành vi phá hoại tài sản?"
+    },
+    {
+      "id": 67,
+      "text": "Từng giao hợp?"
+    },
+    {
+      "id": 68,
+      "text": "Từng giao hợp ba lần trở lên trong một đêm?"
+    },
+    {
+      "id": 69,
+      "text": "?"
+    },
+    {
+      "id": 70,
+      "text": "Từng giao hợp 10 lần trở lên?"
+    },
+    {
+      "id": 71,
+      "text": "Từng giao hợp ở bốn tư thế trở lên?"
+    },
+    {
+      "id": 72,
+      "text": "Từng giao hợp với người lạ hoặc người bạn gặp trong vòng 24 giờ?"
+    },
+    {
+      "id": 73,
+      "text": "Từng giao hợp trong xe cơ giới?"
+    },
+    {
+      "id": 74,
+      "text": "Từng giao hợp ngoài trời?"
+    },
+    {
+      "id": 75,
+      "text": "Từng giao hợp nơi công cộng?"
+    },
+    {
+      "id": 76,
+      "text": "Từng giao hợp trong hồ bơi hoặc bồn nước nóng?"
+    },
+    {
+      "id": 77,
+      "text": "Từng giao hợp trên một chiếc giường không thuộc về bạn hoặc bạn tình?"
+    },
+    {
+      "id": 78,
+      "text": "Từng giao hợp khi cha mẹ của bạn hoặc của bạn tình ở cùng nhà?"
+    },
+    {
+      "id": 79,
+      "text": "Từng giao hợp khi có bên thứ ba không tham gia ở cùng phòng?"
+    },
+    {
+      "id": 80,
+      "text": "Từng gia nhập câu lạc bộ mile high?"
+    },
+    {
+      "id": 81,
+      "text": "Từng tham gia một “booty call” với người không phải người yêu của bạn?"
+    },
+    {
+      "id": 82,
+      "text": "Từng đi 100 dặm trở lên với mục đích chính là giao hợp?"
+    },
+    {
+      "id": 83,
+      "text": "Từng giao hợp với bạn tình chênh lệch tuổi từ 3 năm trở lên?"
+    },
+    {
+      "id": 84,
+      "text": "Từng giao hợp với một người còn trinh?"
+    },
+    {
+      "id": 85,
+      "text": "Từng giao hợp không dùng bao cao su?"
+    },
+    {
+      "id": 86,
+      "text": "Từng xét nghiệm STI (nhiễm trùng lây truyền qua đường tình dục) vì có nghi ngờ hợp lý?"
+    },
+    {
+      "id": 87,
+      "text": "Từng mắc STI (nhiễm trùng lây truyền qua đường tình dục)?"
+    },
+    {
+      "id": 88,
+      "text": "Từng quan hệ tay ba?"
+    },
+    {
+      "id": 89,
+      "text": "Từng tham dự một buổi truy hoan?"
+    },
+    {
+      "id": 90,
+      "text": "Từng có hai hành vi giao hợp riêng biệt trở lên với hai người trở lên trong vòng 24 giờ?"
+    },
+    {
+      "id": 91,
+      "text": "Từng giao hợp với năm bạn tình trở lên?"
+    },
+    {
+      "id": 92,
+      "text": "Từng bị chính bạn hoặc người khác chụp ảnh hay quay phim trong lúc giao hợp?"
+    },
+    {
+      "id": 93,
+      "text": "Từng quan hệ khi đang có kinh?"
+    },
+    {
+      "id": 94,
+      "text": "Từng quan hệ hậu môn?"
+    },
+    {
+      "id": 95,
+      "text": "Từng có nỗi lo mang thai ngoài ý muốn?"
+    },
+    {
+      "id": 96,
+      "text": "Từng làm ai đó mang thai hoặc từng mang thai?"
+    },
+    {
+      "id": 97,
+      "text": "Từng trả tiền hoặc được trả tiền cho một hành vi tình dục?"
+    },
+    {
+      "id": 98,
+      "text": "Từng thực hiện hành vi nhìn trộm?"
+    },
+    {
+      "id": 99,
+      "text": "Từng thực hiện hành vi loạn luân?"
+    },
+    {
+      "id": 100,
+      "text": "Từng quan hệ với động vật?"
+    }
+  ]
 }
