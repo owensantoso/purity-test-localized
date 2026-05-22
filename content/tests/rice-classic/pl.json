@@ -1,0 +1,426 @@
+{
+  "language": "pl",
+  "label": "Polski",
+  "title": "Test Czystości Rice",
+  "intro": "",
+  "items": [
+    {
+      "id": 1,
+      "text": "Trzymałeś/trzymałaś kogoś za rękę w romantyczny sposób?"
+    },
+    {
+      "id": 2,
+      "text": "Byłeś/byłaś na randce?"
+    },
+    {
+      "id": 3,
+      "text": "Byłeś/byłaś w związku?"
+    },
+    {
+      "id": 4,
+      "text": "Tańczyłeś/tańczyłaś bez zostawiania miejsca dla Jezusa?"
+    },
+    {
+      "id": 5,
+      "text": "Całowałeś/całowałaś osobę spoza rodziny?"
+    },
+    {
+      "id": 6,
+      "text": "Całowałeś/całowałaś osobę spoza rodziny w usta?"
+    },
+    {
+      "id": 7,
+      "text": "Całowałeś/całowałaś się z języczkiem?"
+    },
+    {
+      "id": 8,
+      "text": "Całowałeś/całowałaś się z języczkiem publicznie?"
+    },
+    {
+      "id": 9,
+      "text": "Całowałeś/całowałaś kogoś w szyję?"
+    },
+    {
+      "id": 10,
+      "text": "Całowałeś/całowałaś się na leżąco?"
+    },
+    {
+      "id": 11,
+      "text": "Zrobiłeś/zrobiłaś komuś malinkę albo ją dostałeś/dostałaś?",
+      "help": "Malinka to tymczasowy ślad na skórze spowodowany całowaniem lub ssaniem."
+    },
+    {
+      "id": 12,
+      "text": "Całowałeś/całowałaś kogoś w pierś albo zostałeś/zostałaś tam pocałowany/pocałowana?"
+    },
+    {
+      "id": 13,
+      "text": "Całowałeś/całowałaś kogoś poniżej pasa?",
+      "help": "Poniżej pasa oznacza okolice genitaliów albo górną część wewnętrznej strony uda."
+    },
+    {
+      "id": 14,
+      "text": "Całowałeś/całowałaś się nieprzerwanie przez ponad dwie godziny?"
+    },
+    {
+      "id": 15,
+      "text": "Grałeś/grałaś w grę z rozbieraniem się?"
+    },
+    {
+      "id": 16,
+      "text": "Widziałeś/widziałaś kogoś albo ktoś widział ciebie w zmysłowym kontekście?"
+    },
+    {
+      "id": 17,
+      "text": "Masturbowałeś/masturbowałaś się?"
+    },
+    {
+      "id": 18,
+      "text": "Masturbowałeś/masturbowałaś się do zdjęcia lub filmu?"
+    },
+    {
+      "id": 19,
+      "text": "Masturbowałeś/masturbowałaś się, gdy ktoś inny był w pokoju?"
+    },
+    {
+      "id": 20,
+      "text": "Zostałeś/zostałaś przyłapany/przyłapana na masturbacji?"
+    },
+    {
+      "id": 21,
+      "text": "Masturbowałeś/masturbowałaś się przy użyciu przedmiotu nieożywionego?"
+    },
+    {
+      "id": 22,
+      "text": "Oglądałeś/oglądałaś lub czytałeś/czytałaś materiały pornograficzne?"
+    },
+    {
+      "id": 23,
+      "text": "Masowałeś/masowałaś kogoś zmysłowo albo byłeś/byłaś tak masowany/masowana?"
+    },
+    {
+      "id": 24,
+      "text": "Naśladowałeś/naśladowałaś ruchy stosunku, będąc w pełni ubranym/ubraną?"
+    },
+    {
+      "id": 25,
+      "text": "Rozebrałeś/rozebrałaś osobę MPS (member of the preferred sex) albo zostałeś/zostałaś przez nią rozebrany/rozebrana?",
+      "help": "MPS oznacza member of the preferred sex: osobę płci lub tożsamości płciowej, która cię pociąga."
+    },
+    {
+      "id": 26,
+      "text": "Brałeś/brałaś prysznic z osobą MPS?",
+      "help": "MPS oznacza member of the preferred sex: osobę płci lub tożsamości płciowej, która cię pociąga."
+    },
+    {
+      "id": 27,
+      "text": "Pieściłeś/pieściłaś komuś pośladki albo ktoś pieścił twoje?"
+    },
+    {
+      "id": 28,
+      "text": "Pieściłeś/pieściłaś komuś piersi albo ktoś pieścił twoje?"
+    },
+    {
+      "id": 29,
+      "text": "Pieściłeś/pieściłaś komuś genitalia albo ktoś pieścił twoje?"
+    },
+    {
+      "id": 30,
+      "text": "Miałeś/miałaś albo spowodowałeś/spowodowałaś u kogoś „blue balls”?",
+      "help": "„Blue balls” to slangowe określenie dyskomfortu jąder po pobudzeniu seksualnym bez orgazmu."
+    },
+    {
+      "id": 31,
+      "text": "Miałeś/miałaś orgazm wskutek stymulacji przez inną osobę?"
+    },
+    {
+      "id": 32,
+      "text": "Wysłałeś/wysłałaś wiadomość tekstową lub komunikatorową o wyraźnie seksualnej treści?"
+    },
+    {
+      "id": 33,
+      "text": "Wysłałeś/wysłałaś lub otrzymałeś/otrzymałaś zdjęcia o wyraźnie seksualnej treści?"
+    },
+    {
+      "id": 34,
+      "text": "Brałeś/brałaś udział w wyraźnie seksualnej aktywności przez wideoczat?"
+    },
+    {
+      "id": 35,
+      "text": "Zdradziłeś/zdradziłaś partnera/partnerkę podczas związku?"
+    },
+    {
+      "id": 36,
+      "text": "Kupiłeś/kupiłaś środki antykoncepcyjne?",
+      "help": "Środki antykoncepcyjne to produkty lub leki zmniejszające szansę ciąży, takie jak prezerwatywy albo tabletki antykoncepcyjne."
+    },
+    {
+      "id": 37,
+      "text": "Uprawiałeś/uprawiałaś seks oralny z kimś?"
+    },
+    {
+      "id": 38,
+      "text": "Otrzymałeś/otrzymałaś seks oralny?"
+    },
+    {
+      "id": 39,
+      "text": "Połknąłeś/połknęłaś wydzielinę genitalną innej osoby?"
+    },
+    {
+      "id": 40,
+      "text": "Używałeś/używałaś zabawki erotycznej z partnerem/partnerką?"
+    },
+    {
+      "id": 41,
+      "text": "Spędziłeś/spędziłaś noc z osobą MPS?",
+      "help": "MPS oznacza member of the preferred sex: osobę płci lub tożsamości płciowej, która cię pociąga."
+    },
+    {
+      "id": 42,
+      "text": "Ktoś wszedł na ciebie podczas wykonywania czynności seksualnej?"
+    },
+    {
+      "id": 43,
+      "text": "Wyrzuciłeś/wyrzuciłaś współlokatora z pokoju, żeby wykonać czynność seksualną?"
+    },
+    {
+      "id": 44,
+      "text": "Spożywałeś/spożywałaś alkohol poza kontekstem religijnym?"
+    },
+    {
+      "id": 45,
+      "text": "Grałeś/grałaś w grę alkoholową?"
+    },
+    {
+      "id": 46,
+      "text": "Byłeś/byłaś pijany/pijana?"
+    },
+    {
+      "id": 47,
+      "text": "Udawałeś/udawałaś trzeźwość przed rodzicami lub nauczycielami?"
+    },
+    {
+      "id": 48,
+      "text": "Miałeś/miałaś poważną utratę pamięci z powodu alkoholu?"
+    },
+    {
+      "id": 49,
+      "text": "Używałeś/używałaś tytoniu?"
+    },
+    {
+      "id": 50,
+      "text": "Używałeś/używałaś marihuany?"
+    },
+    {
+      "id": 51,
+      "text": "Używałeś/używałaś narkotyku silniejszego niż marihuana?"
+    },
+    {
+      "id": 52,
+      "text": "Używałeś/używałaś metamfetaminy, cracku, PCP, środków uspokajających dla koni lub heroiny?",
+      "help": "Ten punkt wymienia kilka twardych narkotyków: metamfetaminę, crack, PCP, środki uspokajające dla zwierząt podobne do ketaminy oraz heroinę."
+    },
+    {
+      "id": 53,
+      "text": "Zostałeś/zostałaś wysłany/wysłana do gabinetu dyrektora, dziekana lub przedstawiciela ds. dyscyplinarnych za przewinienie dyscyplinarne?"
+    },
+    {
+      "id": 54,
+      "text": "Zostałeś/zostałaś objęty/objęta nadzorem dyscyplinarnym albo zawieszony/zawieszona?"
+    },
+    {
+      "id": 55,
+      "text": "Oddawałeś/oddawałaś mocz publicznie?"
+    },
+    {
+      "id": 56,
+      "text": "Pływałeś/pływałaś nago?"
+    },
+    {
+      "id": 57,
+      "text": "Biegałeś/biegałaś nago publicznie?"
+    },
+    {
+      "id": 58,
+      "text": "Widziałeś/widziałaś striptizerkę lub striptizera?"
+    },
+    {
+      "id": 59,
+      "text": "Ktoś wezwał do ciebie policję?"
+    },
+    {
+      "id": 60,
+      "text": "Uciekałeś/uciekałaś przed policją?"
+    },
+    {
+      "id": 61,
+      "text": "Byłeś/byłaś przesłuchiwany/przesłuchiwana przez policję?"
+    },
+    {
+      "id": 62,
+      "text": "Policja założyła ci kajdanki?"
+    },
+    {
+      "id": 63,
+      "text": "Zostałeś/zostałaś aresztowany/aresztowana?"
+    },
+    {
+      "id": 64,
+      "text": "Zostałeś/zostałaś skazany/skazana za przestępstwo?"
+    },
+    {
+      "id": 65,
+      "text": "Zostałeś/zostałaś skazany/skazana za zbrodnię?"
+    },
+    {
+      "id": 66,
+      "text": "Dopuściłeś/dopuściłaś się aktu wandalizmu?"
+    },
+    {
+      "id": 67,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny?"
+    },
+    {
+      "id": 68,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny trzy lub więcej razy jednej nocy?"
+    },
+    {
+      "id": 69,
+      "text": "?",
+      "help": "69 to pozycja seksualna, w której dwie osoby jednocześnie wykonują na sobie seks oralny, ułożone głowa przy stopach."
+    },
+    {
+      "id": 70,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny 10 lub więcej razy?"
+    },
+    {
+      "id": 71,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny w czterech lub więcej pozycjach?"
+    },
+    {
+      "id": 72,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny z nieznajomą osobą albo osobą poznaną w ciągu 24 godzin?"
+    },
+    {
+      "id": 73,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny w pojeździe silnikowym?"
+    },
+    {
+      "id": 74,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny na zewnątrz?"
+    },
+    {
+      "id": 75,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny publicznie?"
+    },
+    {
+      "id": 76,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny w basenie lub jacuzzi?"
+    },
+    {
+      "id": 77,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny w łóżku nienależącym do ciebie ani twojego partnera/partnerki?"
+    },
+    {
+      "id": 78,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny, gdy twoi rodzice lub rodzice partnera/partnerki byli w tym samym domu?"
+    },
+    {
+      "id": 79,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny, gdy w tym samym pokoju była nieuczestnicząca osoba trzecia?"
+    },
+    {
+      "id": 80,
+      "text": "Dołączyłeś/dołączyłaś do „mile high club”?",
+      "help": "„Mile high club” oznacza odbycie seksu w samolocie podczas lotu."
+    },
+    {
+      "id": 81,
+      "text": "Wziąłeś/wzięłaś udział w „booty call” z osobą, z którą nie byłeś/byłaś w związku?",
+      "help": "„Booty call” to luźne zaproszenie lub spotkanie w celu seksu, a nie romantyczny związek."
+    },
+    {
+      "id": 82,
+      "text": "Przebyłeś/przebyłaś 100 mil lub więcej głównie w celu odbycia stosunku seksualnego?"
+    },
+    {
+      "id": 83,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny z partnerem/partnerką starszym/starszą lub młodszym/młodszą o co najmniej 3 lata?"
+    },
+    {
+      "id": 84,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny z dziewicą lub prawiczkiem?"
+    },
+    {
+      "id": 85,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny bez prezerwatywy?"
+    },
+    {
+      "id": 86,
+      "text": "Wykonałeś/wykonałaś test na STI z powodu uzasadnionego podejrzenia?",
+      "help": "STI oznacza sexually transmitted infection, czyli infekcję przenoszoną drogą płciową. Ten punkt pyta o test wykonany z realistycznego powodu podejrzenia narażenia."
+    },
+    {
+      "id": 87,
+      "text": "Miałeś/miałaś STI?",
+      "help": "STI oznacza infekcję przenoszoną drogą płciową, czyli infekcję, która może być przekazana przez kontakt seksualny."
+    },
+    {
+      "id": 88,
+      "text": "Miałeś/miałaś trójkąt?",
+      "help": "Trójkąt to aktywność seksualna z udziałem trzech osób."
+    },
+    {
+      "id": 89,
+      "text": "Uczestniczyłeś/uczestniczyłaś w orgii?",
+      "help": "Orgia to grupowe wydarzenie seksualne z udziałem kilku osób."
+    },
+    {
+      "id": 90,
+      "text": "Miałeś/miałaś dwa lub więcej odrębnych aktów stosunku seksualnego z dwiema lub więcej osobami w ciągu 24 godzin?"
+    },
+    {
+      "id": 91,
+      "text": "Odbyłeś/odbyłaś stosunek seksualny z pięcioma lub więcej partnerami/partnerkami?"
+    },
+    {
+      "id": 92,
+      "text": "Zostałeś/zostałaś sfotografowany/sfotografowana lub sfilmowany/sfilmowana podczas stosunku seksualnego przez siebie lub innych?"
+    },
+    {
+      "id": 93,
+      "text": "Uprawiałeś/uprawiałaś seks podczas okresu?"
+    },
+    {
+      "id": 94,
+      "text": "Uprawiałeś/uprawiałaś seks analny?"
+    },
+    {
+      "id": 95,
+      "text": "Miałeś/miałaś strach przed ciążą?"
+    },
+    {
+      "id": 96,
+      "text": "Zapłodniłeś/zapłodniłaś kogoś albo zostałeś/zostałaś zapłodniony/zapłodniona?"
+    },
+    {
+      "id": 97,
+      "text": "Zapłaciłeś/zapłaciłaś albo otrzymałeś/otrzymałaś zapłatę za czynność seksualną?"
+    },
+    {
+      "id": 98,
+      "text": "Dopuściłeś/dopuściłaś się aktu voyeuryzmu?",
+      "help": "Voyeurism oznacza podglądanie ludzi w prywatnych lub seksualnych sytuacjach bez ich zgody."
+    },
+    {
+      "id": 99,
+      "text": "Dopuściłeś/dopuściłaś się kazirodztwa?",
+      "help": "Kazirodztwo oznacza aktywność seksualną między bliskimi członkami rodziny."
+    },
+    {
+      "id": 100,
+      "text": "Dopuściłeś/dopuściłaś się zoofilii?",
+      "help": "Zoofilia oznacza aktywność seksualną z udziałem zwierzęcia."
+    }
+  ]
+}

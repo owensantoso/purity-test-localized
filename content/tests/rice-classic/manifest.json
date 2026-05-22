@@ -78,6 +78,12 @@
       "label": "Bahasa Indonesia",
       "file": "id.json",
       "status": "ready"
+    },
+    {
+      "code": "pl",
+      "label": "Polski",
+      "file": "pl.json",
+      "status": "ready"
     }
   ]
 }

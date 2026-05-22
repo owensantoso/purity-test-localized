@@ -226,5 +226,24 @@
     "sourceCompare": "Tampilkan sumber bahasa Inggris di samping terjemahan",
     "explainItem": "Jelaskan item ini",
     "hideExplanation": "Sembunyikan penjelasan"
+  },
+  "pl": {
+    "languageLabel": "Język",
+    "sourcePendingTitle": "Kanoniczny tekst pytań nie został jeszcze załadowany.",
+    "sourcePendingBody": "Aplikacja jest gotowa na dokładną listę źródłową. Najpierw dodaj pytania źródłowe do angielskiego pliku JSON, a potem dodaj tłumaczenia z tymi samymi ID.",
+    "selectedCount": "Zaznaczone",
+    "scoreLabel": "Wynik",
+    "submit": "Wyślij",
+    "resultLabel": "Wynik końcowy",
+    "resultBody": "Twój wynik i zaznaczone pytania są zapisane w tej przeglądarce.",
+    "reset": "Resetuj",
+    "showChecked": "Pokaż zaznaczone pytania",
+    "hideChecked": "Ukryj zaznaczone pytania",
+    "noCheckedItems": "Nie zaznaczono jeszcze żadnych pytań.",
+    "privacyNote": "Odpowiedzi są przechowywane tylko w tej przeglądarce. Ta aplikacja nie wysyła danych wyniku.",
+    "contentStatus": "Stan treści",
+    "sourceCompare": "Pokaż angielski oryginał obok tłumaczenia",
+    "explainItem": "Wyjaśnij to pytanie",
+    "hideExplanation": "Ukryj wyjaśnienie"
   }
 }
