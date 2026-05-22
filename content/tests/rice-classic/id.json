@@ -1,0 +1,426 @@
+{
+  "language": "id",
+  "label": "Bahasa Indonesia",
+  "title": "Tes Kemurnian Rice",
+  "intro": "",
+  "items": [
+    {
+      "id": 1,
+      "text": "Pernah bergandengan tangan secara romantis?"
+    },
+    {
+      "id": 2,
+      "text": "Pernah berkencan?"
+    },
+    {
+      "id": 3,
+      "text": "Pernah menjalin hubungan?"
+    },
+    {
+      "id": 4,
+      "text": "Pernah berdansa tanpa menyisakan ruang untuk Yesus?"
+    },
+    {
+      "id": 5,
+      "text": "Pernah mencium orang yang bukan anggota keluarga?"
+    },
+    {
+      "id": 6,
+      "text": "Pernah mencium orang yang bukan anggota keluarga di bibir?"
+    },
+    {
+      "id": 7,
+      "text": "Pernah berciuman Prancis?"
+    },
+    {
+      "id": 8,
+      "text": "Pernah berciuman Prancis di tempat umum?"
+    },
+    {
+      "id": 9,
+      "text": "Pernah dicium di leher?"
+    },
+    {
+      "id": 10,
+      "text": "Pernah berciuman dalam posisi horizontal?"
+    },
+    {
+      "id": 11,
+      "text": "Pernah memberi atau menerima cupang?",
+      "help": "Cupang adalah bekas sementara pada kulit yang disebabkan oleh ciuman atau isapan."
+    },
+    {
+      "id": 12,
+      "text": "Pernah mencium atau dicium di payudara?"
+    },
+    {
+      "id": 13,
+      "text": "Pernah mencium seseorang di bawah pinggang?",
+      "help": "Di bawah pinggang berarti area genital atau area paha bagian dalam atas."
+    },
+    {
+      "id": 14,
+      "text": "Pernah berciuman selama lebih dari dua jam berturut-turut?"
+    },
+    {
+      "id": 15,
+      "text": "Pernah bermain permainan yang melibatkan melepas pakaian?"
+    },
+    {
+      "id": 16,
+      "text": "Pernah melihat atau dilihat orang lain dalam konteks sensual?"
+    },
+    {
+      "id": 17,
+      "text": "Pernah masturbasi?"
+    },
+    {
+      "id": 18,
+      "text": "Pernah masturbasi dengan melihat gambar atau video?"
+    },
+    {
+      "id": 19,
+      "text": "Pernah masturbasi saat orang lain berada di ruangan yang sama?"
+    },
+    {
+      "id": 20,
+      "text": "Pernah ketahuan masturbasi?"
+    },
+    {
+      "id": 21,
+      "text": "Pernah masturbasi dengan benda mati?"
+    },
+    {
+      "id": 22,
+      "text": "Pernah melihat atau membaca materi pornografi?"
+    },
+    {
+      "id": 23,
+      "text": "Pernah memijat atau dipijat secara sensual?"
+    },
+    {
+      "id": 24,
+      "text": "Pernah melakukan gerakan seperti hubungan seksual saat berpakaian lengkap?"
+    },
+    {
+      "id": 25,
+      "text": "Pernah menanggalkan pakaian atau ditanggalkan pakaiannya oleh MPS (anggota dari jenis kelamin atau gender yang disukai)?",
+      "help": "MPS berarti anggota dari jenis kelamin atau gender yang disukai: seseorang dari jenis kelamin atau gender yang membuat Anda tertarik."
+    },
+    {
+      "id": 26,
+      "text": "Pernah mandi bersama MPS?",
+      "help": "MPS berarti anggota dari jenis kelamin atau gender yang disukai: seseorang dari jenis kelamin atau gender yang membuat Anda tertarik."
+    },
+    {
+      "id": 27,
+      "text": "Pernah meraba bokong seseorang atau bokong Anda diraba?"
+    },
+    {
+      "id": 28,
+      "text": "Pernah meraba payudara seseorang atau payudara Anda diraba?"
+    },
+    {
+      "id": 29,
+      "text": "Pernah meraba genital seseorang atau genital Anda diraba?"
+    },
+    {
+      "id": 30,
+      "text": "Pernah mengalami atau menyebabkan “blue balls”?",
+      "help": "Blue balls adalah slang untuk rasa tidak nyaman pada testis setelah rangsangan seksual tanpa orgasme."
+    },
+    {
+      "id": 31,
+      "text": "Pernah mengalami orgasme karena rangsangan yang dilakukan orang lain?"
+    },
+    {
+      "id": 32,
+      "text": "Pernah mengirim pesan teks atau pesan instan yang eksplisit secara seksual?"
+    },
+    {
+      "id": 33,
+      "text": "Pernah mengirim atau menerima foto yang eksplisit secara seksual?"
+    },
+    {
+      "id": 34,
+      "text": "Pernah melakukan aktivitas eksplisit secara seksual melalui obrolan video?"
+    },
+    {
+      "id": 35,
+      "text": "Pernah selingkuh dari pasangan saat sedang menjalin hubungan?"
+    },
+    {
+      "id": 36,
+      "text": "Pernah membeli kontrasepsi?",
+      "help": "Kontrasepsi adalah produk atau obat yang digunakan untuk mengurangi kemungkinan kehamilan, seperti kondom atau pil KB."
+    },
+    {
+      "id": 37,
+      "text": "Pernah memberikan seks oral?"
+    },
+    {
+      "id": 38,
+      "text": "Pernah menerima seks oral?"
+    },
+    {
+      "id": 39,
+      "text": "Pernah menelan sekresi genital orang lain?"
+    },
+    {
+      "id": 40,
+      "text": "Pernah menggunakan mainan seks dengan pasangan?"
+    },
+    {
+      "id": 41,
+      "text": "Pernah menginap semalam dengan MPS?",
+      "help": "MPS berarti anggota dari jenis kelamin atau gender yang disukai: seseorang dari jenis kelamin atau gender yang membuat Anda tertarik."
+    },
+    {
+      "id": 42,
+      "text": "Pernah dipergoki saat melakukan tindakan seksual?"
+    },
+    {
+      "id": 43,
+      "text": "Pernah mengusir teman sekamar untuk melakukan tindakan seksual?"
+    },
+    {
+      "id": 44,
+      "text": "Pernah mengonsumsi alkohol dalam konteks non-religius?"
+    },
+    {
+      "id": 45,
+      "text": "Pernah bermain permainan minum alkohol?"
+    },
+    {
+      "id": 46,
+      "text": "Pernah mabuk?"
+    },
+    {
+      "id": 47,
+      "text": "Pernah berpura-pura sadar di depan orang tua atau guru?"
+    },
+    {
+      "id": 48,
+      "text": "Pernah mengalami kehilangan ingatan berat karena alkohol?"
+    },
+    {
+      "id": 49,
+      "text": "Pernah menggunakan tembakau?"
+    },
+    {
+      "id": 50,
+      "text": "Pernah menggunakan ganja?"
+    },
+    {
+      "id": 51,
+      "text": "Pernah menggunakan narkoba yang lebih kuat daripada ganja?"
+    },
+    {
+      "id": 52,
+      "text": "Pernah menggunakan metamfetamin, kokain crack, PCP, obat penenang kuda, atau heroin?",
+      "help": "Butir ini mencantumkan beberapa narkoba keras: metamfetamin, kokain crack, PCP, obat penenang hewan yang mirip ketamin, dan heroin."
+    },
+    {
+      "id": 53,
+      "text": "Pernah dikirim ke kantor kepala sekolah, dekan, atau perwakilan urusan yudisial karena pelanggaran disiplin?"
+    },
+    {
+      "id": 54,
+      "text": "Pernah dikenai masa percobaan disiplin atau diskors?"
+    },
+    {
+      "id": 55,
+      "text": "Pernah buang air kecil di tempat umum?"
+    },
+    {
+      "id": 56,
+      "text": "Pernah berenang telanjang?"
+    },
+    {
+      "id": 57,
+      "text": "Pernah berlari telanjang di tempat umum?"
+    },
+    {
+      "id": 58,
+      "text": "Pernah melihat penari telanjang?"
+    },
+    {
+      "id": 59,
+      "text": "Pernah membuat polisi dipanggil karena Anda?"
+    },
+    {
+      "id": 60,
+      "text": "Pernah lari dari polisi?"
+    },
+    {
+      "id": 61,
+      "text": "Pernah diinterogasi polisi?"
+    },
+    {
+      "id": 62,
+      "text": "Pernah diborgol oleh polisi?"
+    },
+    {
+      "id": 63,
+      "text": "Pernah ditangkap?"
+    },
+    {
+      "id": 64,
+      "text": "Pernah dinyatakan bersalah atas suatu kejahatan?"
+    },
+    {
+      "id": 65,
+      "text": "Pernah dinyatakan bersalah atas kejahatan berat?"
+    },
+    {
+      "id": 66,
+      "text": "Pernah melakukan tindakan vandalisme?"
+    },
+    {
+      "id": 67,
+      "text": "Pernah melakukan hubungan seksual?"
+    },
+    {
+      "id": 68,
+      "text": "Pernah melakukan hubungan seksual tiga kali atau lebih dalam satu malam?"
+    },
+    {
+      "id": 69,
+      "text": "?",
+      "help": "69 adalah posisi seksual ketika dua orang melakukan seks oral satu sama lain secara bersamaan, dengan tubuh saling berlawanan arah kepala dan kaki."
+    },
+    {
+      "id": 70,
+      "text": "Pernah melakukan hubungan seksual 10 kali atau lebih?"
+    },
+    {
+      "id": 71,
+      "text": "Pernah melakukan hubungan seksual dalam empat posisi atau lebih?"
+    },
+    {
+      "id": 72,
+      "text": "Pernah melakukan hubungan seksual dengan orang asing atau orang yang Anda temui dalam 24 jam?"
+    },
+    {
+      "id": 73,
+      "text": "Pernah melakukan hubungan seksual di kendaraan bermotor?"
+    },
+    {
+      "id": 74,
+      "text": "Pernah melakukan hubungan seksual di luar ruangan?"
+    },
+    {
+      "id": 75,
+      "text": "Pernah melakukan hubungan seksual di tempat umum?"
+    },
+    {
+      "id": 76,
+      "text": "Pernah melakukan hubungan seksual di kolam renang atau bak mandi air panas?"
+    },
+    {
+      "id": 77,
+      "text": "Pernah melakukan hubungan seksual di tempat tidur yang bukan milik Anda atau pasangan Anda?"
+    },
+    {
+      "id": 78,
+      "text": "Pernah melakukan hubungan seksual saat orang tua Anda atau orang tua pasangan Anda berada di rumah yang sama?"
+    },
+    {
+      "id": 79,
+      "text": "Pernah melakukan hubungan seksual dengan pihak ketiga yang tidak ikut serta di ruangan yang sama?"
+    },
+    {
+      "id": 80,
+      "text": "Pernah bergabung dengan mile high club?",
+      "help": "Mile high club berarti melakukan hubungan seks di pesawat saat sedang terbang."
+    },
+    {
+      "id": 81,
+      "text": "Pernah ikut dalam “booty call” dengan pasangan yang bukan pacar Anda?",
+      "help": "Booty call adalah ajakan atau pertemuan kasual untuk seks, bukan hubungan romantis."
+    },
+    {
+      "id": 82,
+      "text": "Pernah bepergian sejauh 100 mil atau lebih dengan tujuan utama melakukan hubungan seksual?"
+    },
+    {
+      "id": 83,
+      "text": "Pernah melakukan hubungan seksual dengan pasangan yang berbeda usia 3 tahun atau lebih?"
+    },
+    {
+      "id": 84,
+      "text": "Pernah melakukan hubungan seksual dengan seorang perawan?"
+    },
+    {
+      "id": 85,
+      "text": "Pernah melakukan hubungan seksual tanpa kondom?"
+    },
+    {
+      "id": 86,
+      "text": "Pernah menjalani tes IMS karena kecurigaan yang masuk akal?",
+      "help": "IMS berarti infeksi menular seksual. Ini menanyakan tentang menjalani tes karena Anda punya alasan realistis untuk mencurigai adanya paparan."
+    },
+    {
+      "id": 87,
+      "text": "Pernah terkena IMS?",
+      "help": "IMS berarti infeksi menular seksual, yaitu infeksi yang dapat ditularkan melalui kontak seksual."
+    },
+    {
+      "id": 88,
+      "text": "Pernah melakukan threesome?",
+      "help": "Threesome adalah pertemuan seksual yang melibatkan tiga orang."
+    },
+    {
+      "id": 89,
+      "text": "Pernah menghadiri orgy?",
+      "help": "Orgy adalah acara seksual kelompok yang melibatkan beberapa orang."
+    },
+    {
+      "id": 90,
+      "text": "Pernah melakukan dua atau lebih tindakan hubungan seksual yang berbeda dengan dua orang atau lebih dalam 24 jam?"
+    },
+    {
+      "id": 91,
+      "text": "Pernah melakukan hubungan seksual dengan lima pasangan atau lebih?"
+    },
+    {
+      "id": 92,
+      "text": "Pernah difoto atau direkam saat melakukan hubungan seksual oleh diri sendiri atau orang lain?"
+    },
+    {
+      "id": 93,
+      "text": "Pernah melakukan hubungan seks saat menstruasi?"
+    },
+    {
+      "id": 94,
+      "text": "Pernah melakukan seks anal?"
+    },
+    {
+      "id": 95,
+      "text": "Pernah mengalami kekhawatiran kehamilan?"
+    },
+    {
+      "id": 96,
+      "text": "Pernah menghamili seseorang atau dihamili?"
+    },
+    {
+      "id": 97,
+      "text": "Pernah membayar atau dibayar untuk tindakan seksual?"
+    },
+    {
+      "id": 98,
+      "text": "Pernah melakukan tindakan voyeurisme?",
+      "help": "Voyeurisme berarti menonton orang dalam situasi pribadi atau seksual tanpa persetujuan mereka."
+    },
+    {
+      "id": 99,
+      "text": "Pernah melakukan tindakan inses?",
+      "help": "Inses berarti aktivitas seksual antara anggota keluarga dekat."
+    },
+    {
+      "id": 100,
+      "text": "Pernah terlibat dalam bestialitas?",
+      "help": "Bestialitas berarti aktivitas seksual yang melibatkan hewan."
+    }
+  ]
+}

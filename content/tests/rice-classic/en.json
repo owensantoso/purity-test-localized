@@ -2,7 +2,7 @@
   "language": "en",
   "label": "English",
   "title": "Rice Purity Test",
-  "intro": "Click on every item you have done.",
+  "intro": "",
   "items": [
     {
       "id": 1,
@@ -46,7 +46,8 @@
     },
     {
       "id": 11,
-      "text": "Given or received a hickey?"
+      "text": "Given or received a hickey?",
+      "help": "A hickey is a temporary mark on the skin caused by kissing or sucking."
     },
     {
       "id": 12,
@@ -54,7 +55,8 @@
     },
     {
       "id": 13,
-      "text": "Kissed someone below the belt?"
+      "text": "Kissed someone below the belt?",
+      "help": "Below the belt means the genital area or upper inner thigh area."
     },
     {
       "id": 14,
@@ -102,11 +104,13 @@
     },
     {
       "id": 25,
-      "text": "Undressed or been undressed by a MPS (member of the preferred sex)?"
+      "text": "Undressed or been undressed by a MPS (member of the preferred sex)?",
+      "help": "MPS means member of the preferred sex: someone of the sex or gender you are attracted to."
     },
     {
       "id": 26,
-      "text": "Showered with a MPS?"
+      "text": "Showered with a MPS?",
+      "help": "MPS means member of the preferred sex: someone of the sex or gender you are attracted to."
     },
     {
       "id": 27,
@@ -122,7 +126,8 @@
     },
     {
       "id": 30,
-      "text": "Had or given “blue balls”?"
+      "text": "Had or given “blue balls”?",
+      "help": "Blue balls is slang for testicular discomfort after sexual arousal without orgasm."
     },
     {
       "id": 31,
@@ -146,7 +151,8 @@
     },
     {
       "id": 36,
-      "text": "Purchased contraceptives?"
+      "text": "Purchased contraceptives?",
+      "help": "Contraceptives are products or medicine used to reduce the chance of pregnancy, such as condoms or birth control pills."
     },
     {
       "id": 37,
@@ -166,7 +172,8 @@
     },
     {
       "id": 41,
-      "text": "Spent the night with a MPS?"
+      "text": "Spent the night with a MPS?",
+      "help": "MPS means member of the preferred sex: someone of the sex or gender you are attracted to."
     },
     {
       "id": 42,
@@ -210,7 +217,8 @@
     },
     {
       "id": 52,
-      "text": "Used methamphetamine, crack cocaine, PCP, horse tranquilizers or heroin?"
+      "text": "Used methamphetamine, crack cocaine, PCP, horse tranquilizers or heroin?",
+      "help": "This item lists several hard drugs: methamphetamine, crack cocaine, PCP, ketamine-like animal tranquilizers, and heroin."
     },
     {
       "id": 53,
@@ -278,7 +286,8 @@
     },
     {
       "id": 69,
-      "text": "?"
+      "text": "?",
+      "help": "69 is a sexual position where two people perform oral sex on each other at the same time, with their bodies arranged head-to-toe."
     },
     {
       "id": 70,
@@ -322,11 +331,13 @@
     },
     {
       "id": 80,
-      "text": "Joined the mile high club?"
+      "text": "Joined the mile high club?",
+      "help": "The mile high club means having sex on an airplane while in flight."
     },
     {
       "id": 81,
-      "text": "Participated in a “booty call” with a partner whom you were not in a relationship with?"
+      "text": "Participated in a “booty call” with a partner whom you were not in a relationship with?",
+      "help": "A booty call is a casual invitation or meetup for sex, not a romantic relationship."
     },
     {
       "id": 82,
@@ -346,19 +357,23 @@
     },
     {
       "id": 86,
-      "text": "Had a STI test due to reasonable suspicion?"
+      "text": "Had a STI test due to reasonable suspicion?",
+      "help": "STI means sexually transmitted infection. This asks about getting tested because you had a realistic reason to suspect exposure."
     },
     {
       "id": 87,
-      "text": "Had a STI?"
+      "text": "Had a STI?",
+      "help": "STI means sexually transmitted infection, an infection that can be passed through sexual contact."
     },
     {
       "id": 88,
-      "text": "Had a threesome?"
+      "text": "Had a threesome?",
+      "help": "A threesome is a sexual encounter involving three people."
     },
     {
       "id": 89,
-      "text": "Attended an orgy?"
+      "text": "Attended an orgy?",
+      "help": "An orgy is a group sexual event involving several people."
     },
     {
       "id": 90,
@@ -394,15 +409,18 @@
     },
     {
       "id": 98,
-      "text": "Committed an act of voyeurism?"
+      "text": "Committed an act of voyeurism?",
+      "help": "Voyeurism means watching people in private or sexual situations without their consent."
     },
     {
       "id": 99,
-      "text": "Committed an act of incest?"
+      "text": "Committed an act of incest?",
+      "help": "Incest means sexual activity between close family members."
     },
     {
       "id": 100,
-      "text": "Engaged in bestiality?"
+      "text": "Engaged in bestiality?",
+      "help": "Bestiality means sexual activity involving an animal."
     }
   ]
 }

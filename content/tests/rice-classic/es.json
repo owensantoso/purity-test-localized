@@ -1,0 +1,426 @@
+{
+  "language": "es",
+  "label": "Español",
+  "title": "Test de Pureza Rice",
+  "intro": "",
+  "items": [
+    {
+      "id": 1,
+      "text": "¿Has tomado de la mano a alguien de forma romántica?"
+    },
+    {
+      "id": 2,
+      "text": "¿Has tenido una cita?"
+    },
+    {
+      "id": 3,
+      "text": "¿Has estado en una relación?"
+    },
+    {
+      "id": 4,
+      "text": "¿Has bailado sin dejar espacio para Jesús?"
+    },
+    {
+      "id": 5,
+      "text": "¿Has besado a alguien que no sea de tu familia?"
+    },
+    {
+      "id": 6,
+      "text": "¿Has besado en los labios a alguien que no sea de tu familia?"
+    },
+    {
+      "id": 7,
+      "text": "¿Has dado un beso francés?"
+    },
+    {
+      "id": 8,
+      "text": "¿Has dado un beso francés en público?"
+    },
+    {
+      "id": 9,
+      "text": "¿Te han besado en el cuello?"
+    },
+    {
+      "id": 10,
+      "text": "¿Has besado horizontalmente?"
+    },
+    {
+      "id": 11,
+      "text": "¿Has hecho o recibido un chupetón?",
+      "help": "Un chupetón es una marca temporal en la piel causada por besar o succionar."
+    },
+    {
+      "id": 12,
+      "text": "¿Has besado o te han besado en el pecho?"
+    },
+    {
+      "id": 13,
+      "text": "¿Has besado a alguien por debajo del cinturón?",
+      "help": "Por debajo del cinturón significa la zona genital o la parte superior interna del muslo."
+    },
+    {
+      "id": 14,
+      "text": "¿Has besado durante más de dos horas consecutivas?"
+    },
+    {
+      "id": 15,
+      "text": "¿Has jugado a un juego que implicara desnudarse?"
+    },
+    {
+      "id": 16,
+      "text": "¿Has visto o te ha visto otra persona en un contexto sensual?"
+    },
+    {
+      "id": 17,
+      "text": "¿Te has masturbado?"
+    },
+    {
+      "id": 18,
+      "text": "¿Te has masturbado con una foto o un video?"
+    },
+    {
+      "id": 19,
+      "text": "¿Te has masturbado mientras otra persona estaba en la habitación?"
+    },
+    {
+      "id": 20,
+      "text": "¿Te han pillado masturbándote?"
+    },
+    {
+      "id": 21,
+      "text": "¿Te has masturbado con un objeto inanimado?"
+    },
+    {
+      "id": 22,
+      "text": "¿Has visto o leído material pornográfico?"
+    },
+    {
+      "id": 23,
+      "text": "¿Has dado o recibido un masaje sensual?"
+    },
+    {
+      "id": 24,
+      "text": "¿Has hecho los movimientos del coito estando completamente vestido?"
+    },
+    {
+      "id": 25,
+      "text": "¿Has desvestido o te ha desvestido una MPS (miembro del sexo preferido)?",
+      "help": "MPS significa miembro del sexo preferido: alguien del sexo o género que te atrae."
+    },
+    {
+      "id": 26,
+      "text": "¿Te has duchado con una MPS?",
+      "help": "MPS significa miembro del sexo preferido: alguien del sexo o género que te atrae."
+    },
+    {
+      "id": 27,
+      "text": "¿Has manoseado o te han manoseado las nalgas?"
+    },
+    {
+      "id": 28,
+      "text": "¿Has manoseado o te han manoseado los pechos?"
+    },
+    {
+      "id": 29,
+      "text": "¿Has manoseado o te han manoseado los genitales?"
+    },
+    {
+      "id": 30,
+      "text": "¿Has tenido o causado “blue balls”?",
+      "help": "Blue balls es jerga para la incomodidad testicular después de la excitación sexual sin orgasmo."
+    },
+    {
+      "id": 31,
+      "text": "¿Has tenido un orgasmo debido a la manipulación de otra persona?"
+    },
+    {
+      "id": 32,
+      "text": "¿Has enviado un mensaje de texto o instantáneo sexualmente explícito?"
+    },
+    {
+      "id": 33,
+      "text": "¿Has enviado o recibido fotografías sexualmente explícitas?"
+    },
+    {
+      "id": 34,
+      "text": "¿Has participado en actividad sexualmente explícita por videochat?"
+    },
+    {
+      "id": 35,
+      "text": "¿Has engañado a una pareja durante una relación?"
+    },
+    {
+      "id": 36,
+      "text": "¿Has comprado anticonceptivos?",
+      "help": "Los anticonceptivos son productos o medicamentos usados para reducir la probabilidad de embarazo, como condones o píldoras anticonceptivas."
+    },
+    {
+      "id": 37,
+      "text": "¿Has dado sexo oral?"
+    },
+    {
+      "id": 38,
+      "text": "¿Has recibido sexo oral?"
+    },
+    {
+      "id": 39,
+      "text": "¿Has ingerido secreción genital de otra persona?"
+    },
+    {
+      "id": 40,
+      "text": "¿Has usado un juguete sexual con una pareja?"
+    },
+    {
+      "id": 41,
+      "text": "¿Has pasado la noche con una MPS?",
+      "help": "MPS significa miembro del sexo preferido: alguien del sexo o género que te atrae."
+    },
+    {
+      "id": 42,
+      "text": "¿Te han sorprendido mientras participabas en un acto sexual?"
+    },
+    {
+      "id": 43,
+      "text": "¿Has echado a un compañero de cuarto para cometer un acto sexual?"
+    },
+    {
+      "id": 44,
+      "text": "¿Has ingerido alcohol en un contexto no religioso?"
+    },
+    {
+      "id": 45,
+      "text": "¿Has jugado a un juego de beber?"
+    },
+    {
+      "id": 46,
+      "text": "¿Te has emborrachado?"
+    },
+    {
+      "id": 47,
+      "text": "¿Has fingido sobriedad ante tus padres o profesores?"
+    },
+    {
+      "id": 48,
+      "text": "¿Has tenido una pérdida grave de memoria debido al alcohol?"
+    },
+    {
+      "id": 49,
+      "text": "¿Has consumido tabaco?"
+    },
+    {
+      "id": 50,
+      "text": "¿Has consumido marihuana?"
+    },
+    {
+      "id": 51,
+      "text": "¿Has consumido una droga más fuerte que la marihuana?"
+    },
+    {
+      "id": 52,
+      "text": "¿Has consumido metanfetamina, crack, PCP, tranquilizantes para caballos o heroína?",
+      "help": "Este ítem enumera varias drogas duras: metanfetamina, crack, PCP, tranquilizantes animales similares a la ketamina y heroína."
+    },
+    {
+      "id": 53,
+      "text": "¿Te han enviado a la oficina de un director, decano o representante de asuntos judiciales por una infracción disciplinaria?"
+    },
+    {
+      "id": 54,
+      "text": "¿Te han puesto en periodo de prueba disciplinario o te han suspendido?"
+    },
+    {
+      "id": 55,
+      "text": "¿Has orinado en público?"
+    },
+    {
+      "id": 56,
+      "text": "¿Has hecho nudismo al nadar?"
+    },
+    {
+      "id": 57,
+      "text": "¿Has corrido desnudo en público?"
+    },
+    {
+      "id": 58,
+      "text": "¿Has visto a un estríper?"
+    },
+    {
+      "id": 59,
+      "text": "¿Han llamado a la policía por tu culpa?"
+    },
+    {
+      "id": 60,
+      "text": "¿Has huido de la policía?"
+    },
+    {
+      "id": 61,
+      "text": "¿Te ha interrogado la policía?"
+    },
+    {
+      "id": 62,
+      "text": "¿Te ha esposado la policía?"
+    },
+    {
+      "id": 63,
+      "text": "¿Te han arrestado?"
+    },
+    {
+      "id": 64,
+      "text": "¿Te han condenado por un delito?"
+    },
+    {
+      "id": 65,
+      "text": "¿Te han condenado por un delito grave?"
+    },
+    {
+      "id": 66,
+      "text": "¿Has cometido un acto de vandalismo?"
+    },
+    {
+      "id": 67,
+      "text": "¿Has tenido relaciones sexuales?"
+    },
+    {
+      "id": 68,
+      "text": "¿Has tenido relaciones sexuales tres o más veces en una noche?"
+    },
+    {
+      "id": 69,
+      "text": "?",
+      "help": "El 69 es una posición sexual en la que dos personas se practican sexo oral al mismo tiempo, con los cuerpos colocados en sentidos opuestos."
+    },
+    {
+      "id": 70,
+      "text": "¿Has tenido relaciones sexuales 10 o más veces?"
+    },
+    {
+      "id": 71,
+      "text": "¿Has tenido relaciones sexuales en cuatro o más posiciones?"
+    },
+    {
+      "id": 72,
+      "text": "¿Has tenido relaciones sexuales con un desconocido o con una persona que conociste en las últimas 24 horas?"
+    },
+    {
+      "id": 73,
+      "text": "¿Has tenido relaciones sexuales en un vehículo motorizado?"
+    },
+    {
+      "id": 74,
+      "text": "¿Has tenido relaciones sexuales al aire libre?"
+    },
+    {
+      "id": 75,
+      "text": "¿Has tenido relaciones sexuales en público?"
+    },
+    {
+      "id": 76,
+      "text": "¿Has tenido relaciones sexuales en una piscina o jacuzzi?"
+    },
+    {
+      "id": 77,
+      "text": "¿Has tenido relaciones sexuales en una cama que no era tuya ni de tu pareja?"
+    },
+    {
+      "id": 78,
+      "text": "¿Has tenido relaciones sexuales mientras tus padres o los de tu pareja estaban en la misma casa?"
+    },
+    {
+      "id": 79,
+      "text": "¿Has tenido relaciones sexuales con un tercero no participante en la misma habitación?"
+    },
+    {
+      "id": 80,
+      "text": "¿Te has unido al club de la milla de altura?",
+      "help": "El club de la milla de altura significa tener sexo en un avión durante el vuelo."
+    },
+    {
+      "id": 81,
+      "text": "¿Has participado en una “booty call” con una pareja con la que no estabas en una relación?",
+      "help": "Una booty call es una invitación o encuentro casual para tener sexo, no una relación romántica."
+    },
+    {
+      "id": 82,
+      "text": "¿Has viajado 100 millas o más con el propósito principal de tener relaciones sexuales?"
+    },
+    {
+      "id": 83,
+      "text": "¿Has tenido relaciones sexuales con una pareja con una diferencia de edad de 3 años o más?"
+    },
+    {
+      "id": 84,
+      "text": "¿Has tenido relaciones sexuales con una persona virgen?"
+    },
+    {
+      "id": 85,
+      "text": "¿Has tenido relaciones sexuales sin condón?"
+    },
+    {
+      "id": 86,
+      "text": "¿Te has hecho una prueba de ITS debido a una sospecha razonable?",
+      "help": "ITS significa infección de transmisión sexual. Esto pregunta sobre hacerse una prueba porque tenías una razón realista para sospechar exposición."
+    },
+    {
+      "id": 87,
+      "text": "¿Has tenido una ITS?",
+      "help": "ITS significa infección de transmisión sexual, una infección que puede transmitirse por contacto sexual."
+    },
+    {
+      "id": 88,
+      "text": "¿Has tenido un trío?",
+      "help": "Un trío es un encuentro sexual que involucra a tres personas."
+    },
+    {
+      "id": 89,
+      "text": "¿Has asistido a una orgía?",
+      "help": "Una orgía es un evento sexual grupal que involucra a varias personas."
+    },
+    {
+      "id": 90,
+      "text": "¿Has tenido dos o más actos distintos de relaciones sexuales con dos o más personas en 24 horas?"
+    },
+    {
+      "id": 91,
+      "text": "¿Has tenido relaciones sexuales con cinco o más parejas?"
+    },
+    {
+      "id": 92,
+      "text": "¿Te has fotografiado o filmado durante las relaciones sexuales, o lo han hecho otras personas?"
+    },
+    {
+      "id": 93,
+      "text": "¿Has tenido sexo durante la menstruación?"
+    },
+    {
+      "id": 94,
+      "text": "¿Has tenido sexo anal?"
+    },
+    {
+      "id": 95,
+      "text": "¿Has tenido un susto de embarazo?"
+    },
+    {
+      "id": 96,
+      "text": "¿Has embarazado a alguien o te han embarazado?"
+    },
+    {
+      "id": 97,
+      "text": "¿Has pagado o te han pagado por un acto sexual?"
+    },
+    {
+      "id": 98,
+      "text": "¿Has cometido un acto de voyeurismo?",
+      "help": "El voyeurismo significa observar a personas en situaciones privadas o sexuales sin su consentimiento."
+    },
+    {
+      "id": 99,
+      "text": "¿Has cometido un acto de incesto?",
+      "help": "El incesto significa actividad sexual entre familiares cercanos."
+    },
+    {
+      "id": 100,
+      "text": "¿Has participado en bestialismo?",
+      "help": "El bestialismo significa actividad sexual que involucra a un animal."
+    }
+  ]
+}

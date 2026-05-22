@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Purity Test Localized</title>
     <link rel="icon" href="data:,">
-    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/styles.css?v=20260522-more-langs">
   </head>
   <body>
     <main class="page-shell">
       <header class="hero">
         <div>
-          <p class="eyebrow">Private-by-default multilingual checklist</p>
           <h1 id="title">Purity Test Localized</h1>
-          <p id="intro" class="intro">Loading...</p>
         </div>
         <div class="toolbar" aria-label="Test controls">
           <label class="field">
@@ -36,7 +34,14 @@
           <span id="selected-label" class="metric-label">Selected</span>
           <strong id="selected-count" class="selected-count">0 / 100</strong>
         </div>
+        <button id="submit" type="button">Submit</button>
         <button id="reset" type="button">Reset</button>
+      </section>
+
+      <section id="result-panel" class="result-panel" hidden>
+        <span id="result-label" class="metric-label">Final score</span>
+        <strong id="final-score" class="final-score">100</strong>
+        <p id="result-body"></p>
       </section>
 
       <section id="status-panel" class="status-panel" hidden>
@@ -56,6 +61,6 @@
       <p id="privacy-note" class="privacy-note"></p>
     </main>
 
-    <script type="module" src="./src/main.js"></script>
+    <script type="module" src="./src/main.js?v=20260522-more-langs"></script>
   </body>
 </html>

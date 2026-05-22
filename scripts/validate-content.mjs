@@ -22,6 +22,10 @@ async function readJson(filePath) {
 }
 
 function idsFor(languageFile) {
+  if (typeof languageFile.title !== "string" || languageFile.title.trim().length === 0) {
+    fail(`${languageFile.language || "unknown"} is missing a title`);
+  }
+
   if (!Array.isArray(languageFile.items)) {
     fail(`${languageFile.language || "unknown"} is missing an items array`);
   }
@@ -41,6 +45,10 @@ function idsFor(languageFile) {
     if (typeof item.text !== "string" || item.text.trim().length === 0) {
       fail(`${languageFile.language} item ${item.id} is missing text`);
     }
+
+    if ("help" in item && (typeof item.help !== "string" || item.help.trim().length === 0)) {
+      fail(`${languageFile.language} item ${item.id} has invalid help text`);
+    }
   }
 
   return ids;
@@ -48,6 +56,10 @@ function idsFor(languageFile) {
 
 function sameIds(left, right) {
   return left.length === right.length && left.every((id, index) => id === right[index]);
+}
+
+function helpIdsFor(languageFile) {
+  return languageFile.items.filter((item) => "help" in item).map((item) => item.id);
 }
 
 const manifest = await readJson(manifestPath);
@@ -109,6 +121,7 @@ if (!sourceEntry) {
 
 const sourceFile = await readJson(path.join(testDir, sourceEntry.file));
 const sourceIds = idsFor(sourceFile);
+const sourceHelpIds = helpIdsFor(sourceFile);
 
 if ((strict || sourceIds.length !== 0) && sourceIds.length !== manifest.itemCount) {
   fail(`source language has ${sourceIds.length} items, expected ${manifest.itemCount}`);
@@ -144,6 +157,12 @@ for (const language of manifest.languages) {
 
   if (!sameIds(languageIds, sourceIds)) {
     fail(`${language.code} item IDs do not match source language IDs`);
+  }
+
+  const languageHelpIds = helpIdsFor(languageFile);
+
+  if (!sameIds(languageHelpIds, sourceHelpIds)) {
+    fail(`${language.code} help item IDs do not match source language help IDs`);
   }
 }
 

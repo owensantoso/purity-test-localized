@@ -2,7 +2,7 @@
   "language": "vi",
   "label": "Tiếng Việt",
   "title": "Bài Kiểm Tra Rice Purity",
-  "intro": "Chọn tất cả những mục bạn đã từng làm.",
+  "intro": "",
   "items": [
     {
       "id": 1,
@@ -46,7 +46,8 @@
     },
     {
       "id": 11,
-      "text": "Từng để lại hoặc nhận vết hickey?"
+      "text": "Từng để lại hoặc nhận vết hickey?",
+      "help": "Hickey là vết tạm thời trên da do hôn hoặc mút mạnh."
     },
     {
       "id": 12,
@@ -54,7 +55,8 @@
     },
     {
       "id": 13,
-      "text": "Từng hôn ai đó ở dưới thắt lưng?"
+      "text": "Từng hôn ai đó ở dưới thắt lưng?",
+      "help": "Dưới thắt lưng nghĩa là vùng bộ phận sinh dục hoặc phần đùi trong phía trên."
     },
     {
       "id": 14,
@@ -102,11 +104,13 @@
     },
     {
       "id": 25,
-      "text": "Từng được một MPS (người thuộc giới tính bạn ưa thích) cởi đồ, hoặc từng cởi đồ cho MPS?"
+      "text": "Từng được một MPS (người thuộc giới tính bạn ưa thích) cởi đồ, hoặc từng cởi đồ cho MPS?",
+      "help": "MPS là viết tắt của member of the preferred sex: người thuộc giới tính mà bạn bị hấp dẫn."
     },
     {
       "id": 26,
-      "text": "Từng tắm cùng một MPS?"
+      "text": "Từng tắm cùng một MPS?",
+      "help": "MPS là viết tắt của member of the preferred sex: người thuộc giới tính mà bạn bị hấp dẫn."
     },
     {
       "id": 27,
@@ -122,7 +126,8 @@
     },
     {
       "id": 30,
-      "text": "Từng bị hoặc khiến người khác bị “blue balls”?"
+      "text": "Từng bị hoặc khiến người khác bị đau/tức tinh hoàn do kích thích mà không xuất tinh?",
+      "help": "“Blue balls” là tiếng lóng chỉ cảm giác đau/tức tinh hoàn sau khi bị kích thích tình dục nhưng không đạt cực khoái."
     },
     {
       "id": 31,
@@ -146,7 +151,8 @@
     },
     {
       "id": 36,
-      "text": "Từng mua biện pháp tránh thai?"
+      "text": "Từng mua dụng cụ hoặc thuốc tránh thai?",
+      "help": "Dụng cụ hoặc thuốc tránh thai là những thứ giúp giảm khả năng mang thai, như bao cao su hoặc thuốc tránh thai."
     },
     {
       "id": 37,
@@ -166,7 +172,8 @@
     },
     {
       "id": 41,
-      "text": "Từng qua đêm với một MPS?"
+      "text": "Từng qua đêm với một MPS?",
+      "help": "MPS là viết tắt của member of the preferred sex: người thuộc giới tính mà bạn bị hấp dẫn."
     },
     {
       "id": 42,
@@ -210,11 +217,12 @@
     },
     {
       "id": 52,
-      "text": "Từng dùng methamphetamine, cocaine dạng crack, PCP, thuốc an thần cho ngựa hoặc heroin?"
+      "text": "Từng dùng methamphetamine, cocaine dạng crack, PCP, thuốc an thần cho ngựa hoặc heroin?",
+      "help": "Mục này liệt kê một số ma túy mạnh: methamphetamine, crack cocaine, PCP, thuốc an thần cho động vật kiểu ketamine, và heroin."
     },
     {
       "id": 53,
-      "text": "Từng bị gọi lên văn phòng hiệu trưởng, trưởng khoa hoặc đại diện tư pháp/kỷ luật vì vi phạm kỷ luật?"
+      "text": "Từng bị gọi lên văn phòng hiệu trưởng, trưởng khoa hoặc người phụ trách kỷ luật của trường vì vi phạm kỷ luật?"
     },
     {
       "id": 54,
@@ -258,7 +266,7 @@
     },
     {
       "id": 64,
-      "text": "Từng bị kết án về một tội phạm?"
+      "text": "Từng bị kết án vì phạm tội?"
     },
     {
       "id": 65,
@@ -278,7 +286,8 @@
     },
     {
       "id": 69,
-      "text": "?"
+      "text": "?",
+      "help": "69 là tư thế tình dục trong đó hai người quan hệ bằng miệng cho nhau cùng lúc, với cơ thể đặt ngược đầu nhau."
     },
     {
       "id": 70,
@@ -322,11 +331,13 @@
     },
     {
       "id": 80,
-      "text": "Từng gia nhập câu lạc bộ mile high?"
+      "text": "Từng tham gia “mile high club” (quan hệ tình dục trên máy bay)?",
+      "help": "“Mile high club” nghĩa là quan hệ tình dục trên máy bay khi đang bay."
     },
     {
       "id": 81,
-      "text": "Từng tham gia một “booty call” với người không phải người yêu của bạn?"
+      "text": "Từng gặp ai đó chỉ để quan hệ tình dục, dù hai người không ở trong một mối quan hệ?",
+      "help": "“Booty call” là lời rủ hoặc cuộc gặp chỉ để quan hệ tình dục, không phải quan hệ tình cảm."
     },
     {
       "id": 82,
@@ -346,19 +357,23 @@
     },
     {
       "id": 86,
-      "text": "Từng xét nghiệm STI (nhiễm trùng lây truyền qua đường tình dục) vì có nghi ngờ hợp lý?"
+      "text": "Từng xét nghiệm STI (nhiễm trùng lây truyền qua đường tình dục) vì có nghi ngờ hợp lý?",
+      "help": "STI nghĩa là nhiễm trùng lây truyền qua đường tình dục. Mục này hỏi về việc đi xét nghiệm vì có lý do thực tế để nghi ngờ đã phơi nhiễm."
     },
     {
       "id": 87,
-      "text": "Từng mắc STI (nhiễm trùng lây truyền qua đường tình dục)?"
+      "text": "Từng mắc STI (nhiễm trùng lây truyền qua đường tình dục)?",
+      "help": "STI nghĩa là nhiễm trùng lây truyền qua đường tình dục, có thể lây qua tiếp xúc tình dục."
     },
     {
       "id": 88,
-      "text": "Từng quan hệ tay ba?"
+      "text": "Từng quan hệ tay ba?",
+      "help": "Quan hệ tay ba là một hoạt động tình dục có ba người tham gia."
     },
     {
       "id": 89,
-      "text": "Từng tham dự một buổi truy hoan?"
+      "text": "Từng tham dự một buổi truy hoan?",
+      "help": "Một buổi truy hoan là sự kiện tình dục nhóm có nhiều người tham gia."
     },
     {
       "id": 90,
@@ -370,7 +385,7 @@
     },
     {
       "id": 92,
-      "text": "Từng bị chính bạn hoặc người khác chụp ảnh hay quay phim trong lúc giao hợp?"
+      "text": "Từng tự chụp/quay hoặc để người khác chụp/quay bạn trong lúc giao hợp?"
     },
     {
       "id": 93,
@@ -382,7 +397,7 @@
     },
     {
       "id": 95,
-      "text": "Từng có nỗi lo mang thai ngoài ý muốn?"
+      "text": "Từng lo sợ có thai?"
     },
     {
       "id": 96,
@@ -394,15 +409,18 @@
     },
     {
       "id": 98,
-      "text": "Từng thực hiện hành vi nhìn trộm?"
+      "text": "Từng thực hiện hành vi nhìn trộm?",
+      "help": "Nhìn trộm nghĩa là xem người khác trong tình huống riêng tư hoặc tình dục mà không có sự đồng ý của họ."
     },
     {
       "id": 99,
-      "text": "Từng thực hiện hành vi loạn luân?"
+      "text": "Từng thực hiện hành vi loạn luân?",
+      "help": "Loạn luân nghĩa là hoạt động tình dục giữa những người thân trong gia đình."
     },
     {
       "id": 100,
-      "text": "Từng quan hệ với động vật?"
+      "text": "Từng quan hệ tình dục với động vật?",
+      "help": "Quan hệ tình dục với động vật nghĩa là hoạt động tình dục có liên quan đến động vật."
     }
   ]
 }

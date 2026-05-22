@@ -1,9 +1,11 @@
 const testDir = "./content/tests/rice-classic";
+const contentVersion = "20260522-more-langs";
 const stateKey = "purity-test-localized:selected-ids";
+const submittedKey = "purity-test-localized:submitted";
+const checkedListVisibleKey = "purity-test-localized:checked-list-visible";
 
 const elements = {
   title: document.querySelector("#title"),
-  intro: document.querySelector("#intro"),
   languageLabel: document.querySelector("#language-label"),
   languageSelect: document.querySelector("#language-select"),
   sourceCompare: document.querySelector("#source-compare"),
@@ -12,7 +14,12 @@ const elements = {
   score: document.querySelector("#score"),
   selectedLabel: document.querySelector("#selected-label"),
   selectedCount: document.querySelector("#selected-count"),
+  submit: document.querySelector("#submit"),
   reset: document.querySelector("#reset"),
+  resultPanel: document.querySelector("#result-panel"),
+  resultLabel: document.querySelector("#result-label"),
+  finalScore: document.querySelector("#final-score"),
+  resultBody: document.querySelector("#result-body"),
   statusPanel: document.querySelector("#status-panel"),
   statusTitle: document.querySelector("#status-title"),
   statusBody: document.querySelector("#status-body"),
@@ -27,6 +34,8 @@ let uiStrings;
 let sourceContent;
 let currentContent;
 let selectedIds = loadSelectedIds();
+let submitted = localStorage.getItem(submittedKey) === "true";
+let checkedListVisible = localStorage.getItem(checkedListVisibleKey) === "true";
 
 function loadSelectedIds() {
   try {
@@ -41,8 +50,16 @@ function saveSelectedIds() {
   localStorage.setItem(stateKey, JSON.stringify([...selectedIds].sort((a, b) => a - b)));
 }
 
+function saveSubmitted() {
+  localStorage.setItem(submittedKey, String(submitted));
+}
+
+function saveCheckedListVisible() {
+  localStorage.setItem(checkedListVisibleKey, String(checkedListVisible));
+}
+
 async function readJson(url) {
-  const response = await fetch(url);
+  const response = await fetch(`${url}?v=${contentVersion}`);
   if (!response.ok) {
     throw new Error(`Unable to load ${url}`);
   }
@@ -60,6 +77,7 @@ function score() {
 function updateMetrics() {
   elements.score.textContent = String(score());
   elements.selectedCount.textContent = `${selectedIds.size} / ${manifest.itemCount}`;
+  renderResult();
 }
 
 function renderLanguageOptions() {
@@ -124,14 +142,49 @@ function renderItems() {
       }
     }
 
+    const main = document.createElement("div");
+    main.className = "item-main";
+    main.append(label);
+
+    if (item.help) {
+      const helpId = `item-${item.id}-help`;
+      const helpButton = document.createElement("button");
+      helpButton.type = "button";
+      helpButton.className = "help-button";
+      helpButton.textContent = "?";
+      helpButton.setAttribute("aria-expanded", "false");
+      helpButton.setAttribute("aria-controls", helpId);
+      helpButton.setAttribute("aria-label", strings().explainItem);
+
+      const helpText = document.createElement("p");
+      helpText.id = helpId;
+      helpText.className = "item-help";
+      helpText.hidden = true;
+      helpText.textContent = item.help;
+
+      helpButton.addEventListener("click", () => {
+        const isHidden = helpText.hidden;
+        helpText.hidden = !isHidden;
+        helpButton.setAttribute("aria-expanded", String(isHidden));
+        helpButton.setAttribute("aria-label", isHidden ? strings().hideExplanation : strings().explainItem);
+      });
+
+      main.append(helpButton);
+      const row = document.createElement("li");
+      row.append(main, helpText);
+      elements.itemList.append(row);
+      continue;
+    }
+
     const row = document.createElement("li");
-    row.append(label);
+    row.append(main);
     elements.itemList.append(row);
   }
 }
 
 function renderCheckedItems() {
   elements.checkedList.replaceChildren();
+  elements.checkedList.hidden = !checkedListVisible;
 
   if (selectedIds.size === 0) {
     const empty = document.createElement("li");
@@ -149,17 +202,30 @@ function renderCheckedItems() {
   }
 }
 
+function renderResult() {
+  elements.resultPanel.hidden = !submitted;
+
+  if (!submitted) {
+    return;
+  }
+
+  elements.finalScore.textContent = String(score());
+  elements.resultBody.textContent = strings().resultBody;
+}
+
 function renderText() {
   const text = strings();
   document.documentElement.lang = currentContent.language;
   elements.title.textContent = currentContent.title;
-  elements.intro.textContent = currentContent.intro;
   elements.languageLabel.textContent = text.languageLabel;
   elements.sourceCompareLabel.textContent = text.sourceCompare;
   elements.scoreLabel.textContent = text.scoreLabel;
   elements.selectedLabel.textContent = text.selectedCount;
+  elements.submit.textContent = text.submit;
   elements.reset.textContent = text.reset;
-  elements.toggleChecked.textContent = elements.checkedList.hidden
+  elements.resultLabel.textContent = text.resultLabel;
+  elements.resultBody.textContent = text.resultBody;
+  elements.toggleChecked.textContent = !checkedListVisible
     ? text.showChecked
     : text.hideChecked;
   elements.privacyNote.textContent = text.privacyNote;
@@ -183,6 +249,7 @@ async function init() {
   const sourceEntry = manifest.languages.find((language) => language.code === manifest.sourceLanguage);
   sourceContent = await readJson(`${testDir}/${sourceEntry.file}`);
   renderLanguageOptions();
+  elements.sourceCompare.checked = true;
   await setLanguage(navigator.language.split("-")[0]);
 }
 
@@ -192,16 +259,33 @@ elements.languageSelect.addEventListener("change", (event) => {
 
 elements.sourceCompare.addEventListener("change", renderItems);
 
+elements.submit.addEventListener("click", () => {
+  submitted = true;
+  checkedListVisible = true;
+  saveSubmitted();
+  saveCheckedListVisible();
+  renderText();
+  renderCheckedItems();
+  updateMetrics();
+  elements.resultPanel.scrollIntoView({ block: "nearest", behavior: "smooth" });
+});
+
 elements.reset.addEventListener("click", () => {
   selectedIds = new Set();
+  submitted = false;
+  checkedListVisible = false;
   saveSelectedIds();
+  saveSubmitted();
+  saveCheckedListVisible();
+  renderText();
   renderItems();
   renderCheckedItems();
   updateMetrics();
 });
 
 elements.toggleChecked.addEventListener("click", () => {
-  elements.checkedList.hidden = !elements.checkedList.hidden;
+  checkedListVisible = !checkedListVisible;
+  saveCheckedListVisible();
   renderText();
   renderCheckedItems();
 });
@@ -211,4 +295,3 @@ init().catch((error) => {
   elements.statusTitle.textContent = "Unable to load app content.";
   elements.statusBody.textContent = error.message;
 });
-

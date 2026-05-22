@@ -24,6 +24,60 @@
       "label": "Tiếng Việt",
       "file": "vi.json",
       "status": "ready"
+    },
+    {
+      "code": "zh",
+      "label": "简体中文",
+      "file": "zh.json",
+      "status": "ready"
+    },
+    {
+      "code": "fr",
+      "label": "Français",
+      "file": "fr.json",
+      "status": "ready"
+    },
+    {
+      "code": "es",
+      "label": "Español",
+      "file": "es.json",
+      "status": "ready"
+    },
+    {
+      "code": "hi",
+      "label": "हिन्दी",
+      "file": "hi.json",
+      "status": "ready"
+    },
+    {
+      "code": "zh-Hant",
+      "label": "繁體中文",
+      "file": "zh-hant.json",
+      "status": "ready"
+    },
+    {
+      "code": "ru",
+      "label": "Русский",
+      "file": "ru.json",
+      "status": "ready"
+    },
+    {
+      "code": "th",
+      "label": "ไทย",
+      "file": "th.json",
+      "status": "ready"
+    },
+    {
+      "code": "ko",
+      "label": "한국어",
+      "file": "ko.json",
+      "status": "ready"
+    },
+    {
+      "code": "id",
+      "label": "Bahasa Indonesia",
+      "file": "id.json",
+      "status": "ready"
     }
   ]
 }

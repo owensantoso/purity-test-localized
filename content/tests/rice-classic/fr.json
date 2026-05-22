@@ -1,0 +1,426 @@
+{
+  "language": "fr",
+  "label": "Français",
+  "title": "Test de pureté Rice",
+  "intro": "",
+  "items": [
+    {
+      "id": 1,
+      "text": "Tenu la main de quelqu’un de manière romantique ?"
+    },
+    {
+      "id": 2,
+      "text": "Eu un rendez-vous amoureux ?"
+    },
+    {
+      "id": 3,
+      "text": "Été dans une relation ?"
+    },
+    {
+      "id": 4,
+      "text": "Dansé sans laisser de place pour Jésus ?"
+    },
+    {
+      "id": 5,
+      "text": "Embrassé un membre non familial ?"
+    },
+    {
+      "id": 6,
+      "text": "Embrassé un membre non familial sur les lèvres ?"
+    },
+    {
+      "id": 7,
+      "text": "Roulé une pelle ?"
+    },
+    {
+      "id": 8,
+      "text": "Roulé une pelle en public ?"
+    },
+    {
+      "id": 9,
+      "text": "Embrassé quelqu’un dans le cou ?"
+    },
+    {
+      "id": 10,
+      "text": "Embrassé quelqu’un à l’horizontale ?"
+    },
+    {
+      "id": 11,
+      "text": "Donné ou reçu un suçon ?",
+      "help": "Un suçon est une marque temporaire sur la peau causée par un baiser ou une succion."
+    },
+    {
+      "id": 12,
+      "text": "Embrassé ou été embrassé sur la poitrine ?"
+    },
+    {
+      "id": 13,
+      "text": "Embrassé quelqu’un sous la ceinture ?",
+      "help": "Sous la ceinture désigne la zone génitale ou le haut de l’intérieur des cuisses."
+    },
+    {
+      "id": 14,
+      "text": "Embrassé pendant plus de deux heures d’affilée ?"
+    },
+    {
+      "id": 15,
+      "text": "Joué à un jeu impliquant de se déshabiller ?"
+    },
+    {
+      "id": 16,
+      "text": "Vu ou été vu par une autre personne dans un contexte sensuel ?"
+    },
+    {
+      "id": 17,
+      "text": "Vous êtes masturbé ?"
+    },
+    {
+      "id": 18,
+      "text": "Vous êtes masturbé devant une image ou une vidéo ?"
+    },
+    {
+      "id": 19,
+      "text": "Vous êtes masturbé pendant que quelqu’un d’autre était dans la pièce ?"
+    },
+    {
+      "id": 20,
+      "text": "Été surpris en train de vous masturber ?"
+    },
+    {
+      "id": 21,
+      "text": "Vous êtes masturbé avec un objet inanimé ?"
+    },
+    {
+      "id": 22,
+      "text": "Vu ou lu du matériel pornographique ?"
+    },
+    {
+      "id": 23,
+      "text": "Massé ou été massé de manière sensuelle ?"
+    },
+    {
+      "id": 24,
+      "text": "Simulé les mouvements d’un rapport sexuel en étant entièrement habillé ?"
+    },
+    {
+      "id": 25,
+      "text": "Déshabillé ou été déshabillé par un MPS (membre du sexe préféré) ?",
+      "help": "MPS signifie membre du sexe préféré : une personne du sexe ou du genre qui vous attire."
+    },
+    {
+      "id": 26,
+      "text": "Pris une douche avec un MPS ?",
+      "help": "MPS signifie membre du sexe préféré : une personne du sexe ou du genre qui vous attire."
+    },
+    {
+      "id": 27,
+      "text": "Caressé les fesses de quelqu’un ou eu vos fesses caressées ?"
+    },
+    {
+      "id": 28,
+      "text": "Caressé les seins de quelqu’un ou eu vos seins caressés ?"
+    },
+    {
+      "id": 29,
+      "text": "Caressé les parties génitales de quelqu’un ou eu vos parties génitales caressées ?"
+    },
+    {
+      "id": 30,
+      "text": "Eu ou provoqué des « couilles bleues » ?",
+      "help": "« Couilles bleues » est une expression familière désignant une gêne testiculaire après une excitation sexuelle sans orgasme."
+    },
+    {
+      "id": 31,
+      "text": "Eu un orgasme à cause des manipulations de quelqu’un d’autre ?"
+    },
+    {
+      "id": 32,
+      "text": "Envoyé un SMS ou un message instantané sexuellement explicite ?"
+    },
+    {
+      "id": 33,
+      "text": "Envoyé ou reçu des photographies sexuellement explicites ?"
+    },
+    {
+      "id": 34,
+      "text": "Participé à une activité sexuellement explicite par chat vidéo ?"
+    },
+    {
+      "id": 35,
+      "text": "Trompé votre partenaire pendant une relation ?"
+    },
+    {
+      "id": 36,
+      "text": "Acheté des contraceptifs ?",
+      "help": "Les contraceptifs sont des produits ou des médicaments utilisés pour réduire les chances de grossesse, comme les préservatifs ou les pilules contraceptives."
+    },
+    {
+      "id": 37,
+      "text": "Fait une fellation ou un cunnilingus ?"
+    },
+    {
+      "id": 38,
+      "text": "Reçu une fellation ou un cunnilingus ?"
+    },
+    {
+      "id": 39,
+      "text": "Ingéré des sécrétions génitales de quelqu’un d’autre ?"
+    },
+    {
+      "id": 40,
+      "text": "Utilisé un sex-toy avec un partenaire ?"
+    },
+    {
+      "id": 41,
+      "text": "Passé la nuit avec un MPS ?",
+      "help": "MPS signifie membre du sexe préféré : une personne du sexe ou du genre qui vous attire."
+    },
+    {
+      "id": 42,
+      "text": "Été interrompu par quelqu’un entrant pendant un acte sexuel ?"
+    },
+    {
+      "id": 43,
+      "text": "Mis un colocataire dehors pour commettre un acte sexuel ?"
+    },
+    {
+      "id": 44,
+      "text": "Ingéré de l’alcool dans un contexte non religieux ?"
+    },
+    {
+      "id": 45,
+      "text": "Joué à un jeu d’alcool ?"
+    },
+    {
+      "id": 46,
+      "text": "Été ivre ?"
+    },
+    {
+      "id": 47,
+      "text": "Fait semblant d’être sobre devant des parents ou des enseignants ?"
+    },
+    {
+      "id": 48,
+      "text": "Eu une grave perte de mémoire due à l’alcool ?"
+    },
+    {
+      "id": 49,
+      "text": "Consommé du tabac ?"
+    },
+    {
+      "id": 50,
+      "text": "Consommé de la marijuana ?"
+    },
+    {
+      "id": 51,
+      "text": "Consommé une drogue plus forte que la marijuana ?"
+    },
+    {
+      "id": 52,
+      "text": "Consommé de la méthamphétamine, du crack, du PCP, des tranquillisants pour chevaux ou de l’héroïne ?",
+      "help": "Cet élément énumère plusieurs drogues dures : méthamphétamine, crack, PCP, tranquillisants pour animaux semblables à la kétamine, et héroïne."
+    },
+    {
+      "id": 53,
+      "text": "Été envoyé au bureau d’un proviseur, d’un doyen ou d’un représentant des affaires disciplinaires pour une infraction disciplinaire ?"
+    },
+    {
+      "id": 54,
+      "text": "Été mis en probation disciplinaire ou suspendu ?"
+    },
+    {
+      "id": 55,
+      "text": "Uriné en public ?"
+    },
+    {
+      "id": 56,
+      "text": "Vous êtes baigné nu ?"
+    },
+    {
+      "id": 57,
+      "text": "Couru nu en public ?"
+    },
+    {
+      "id": 58,
+      "text": "Vu un strip-teaseur ou une strip-teaseuse ?"
+    },
+    {
+      "id": 59,
+      "text": "Eu la police appelée contre vous ?"
+    },
+    {
+      "id": 60,
+      "text": "Fui la police ?"
+    },
+    {
+      "id": 61,
+      "text": "Été interrogé par la police ?"
+    },
+    {
+      "id": 62,
+      "text": "Été menotté par la police ?"
+    },
+    {
+      "id": 63,
+      "text": "Été arrêté ?"
+    },
+    {
+      "id": 64,
+      "text": "Été condamné pour un crime ou un délit ?"
+    },
+    {
+      "id": 65,
+      "text": "Été condamné pour un crime grave ?"
+    },
+    {
+      "id": 66,
+      "text": "Commis un acte de vandalisme ?"
+    },
+    {
+      "id": 67,
+      "text": "Eu un rapport sexuel ?"
+    },
+    {
+      "id": 68,
+      "text": "Eu un rapport sexuel trois fois ou plus en une nuit ?"
+    },
+    {
+      "id": 69,
+      "text": "?",
+      "help": "Le 69 est une position sexuelle où deux personnes se font une stimulation orale en même temps, corps disposés tête-bêche."
+    },
+    {
+      "id": 70,
+      "text": "Eu un rapport sexuel 10 fois ou plus ?"
+    },
+    {
+      "id": 71,
+      "text": "Eu un rapport sexuel dans quatre positions ou plus ?"
+    },
+    {
+      "id": 72,
+      "text": "Eu un rapport sexuel avec un inconnu ou une personne rencontrée dans les 24 heures ?"
+    },
+    {
+      "id": 73,
+      "text": "Eu un rapport sexuel dans un véhicule motorisé ?"
+    },
+    {
+      "id": 74,
+      "text": "Eu un rapport sexuel dehors ?"
+    },
+    {
+      "id": 75,
+      "text": "Eu un rapport sexuel en public ?"
+    },
+    {
+      "id": 76,
+      "text": "Eu un rapport sexuel dans une piscine ou un bain à remous ?"
+    },
+    {
+      "id": 77,
+      "text": "Eu un rapport sexuel dans un lit ne vous appartenant pas ni à votre partenaire ?"
+    },
+    {
+      "id": 78,
+      "text": "Eu un rapport sexuel pendant que vos parents ou ceux de votre partenaire étaient dans la même maison ?"
+    },
+    {
+      "id": 79,
+      "text": "Eu un rapport sexuel avec une tierce personne non participante dans la même pièce ?"
+    },
+    {
+      "id": 80,
+      "text": "Rejoint le « mile high club » ?",
+      "help": "Le « mile high club » désigne le fait d’avoir un rapport sexuel dans un avion en vol."
+    },
+    {
+      "id": 81,
+      "text": "Participé à un « booty call » avec un partenaire avec qui vous n’étiez pas en relation ?",
+      "help": "Un « booty call » est une invitation ou une rencontre occasionnelle pour avoir un rapport sexuel, et non une relation romantique."
+    },
+    {
+      "id": 82,
+      "text": "Parcouru 100 miles ou plus principalement pour avoir un rapport sexuel ?"
+    },
+    {
+      "id": 83,
+      "text": "Eu un rapport sexuel avec un partenaire ayant une différence d’âge de 3 ans ou plus ?"
+    },
+    {
+      "id": 84,
+      "text": "Eu un rapport sexuel avec une personne vierge ?"
+    },
+    {
+      "id": 85,
+      "text": "Eu un rapport sexuel sans préservatif ?"
+    },
+    {
+      "id": 86,
+      "text": "Passé un test de dépistage d’IST en raison d’un soupçon raisonnable ?",
+      "help": "IST signifie infection sexuellement transmissible. Cet élément demande si vous vous êtes fait tester parce que vous aviez une raison réaliste de soupçonner une exposition."
+    },
+    {
+      "id": 87,
+      "text": "Eu une IST ?",
+      "help": "IST signifie infection sexuellement transmissible, une infection qui peut se transmettre par contact sexuel."
+    },
+    {
+      "id": 88,
+      "text": "Fait un plan à trois ?",
+      "help": "Un plan à trois est une rencontre sexuelle impliquant trois personnes."
+    },
+    {
+      "id": 89,
+      "text": "Assisté à une orgie ?",
+      "help": "Une orgie est un événement sexuel de groupe impliquant plusieurs personnes."
+    },
+    {
+      "id": 90,
+      "text": "Eu deux actes distincts ou plus de rapport sexuel avec deux personnes ou plus en 24 heures ?"
+    },
+    {
+      "id": 91,
+      "text": "Eu un rapport sexuel avec cinq partenaires ou plus ?"
+    },
+    {
+      "id": 92,
+      "text": "Été photographié ou filmé pendant un rapport sexuel par vous-même ou par d’autres ?"
+    },
+    {
+      "id": 93,
+      "text": "Eu un rapport sexuel pendant les règles ?"
+    },
+    {
+      "id": 94,
+      "text": "Eu un rapport sexuel anal ?"
+    },
+    {
+      "id": 95,
+      "text": "Eu une frayeur de grossesse ?"
+    },
+    {
+      "id": 96,
+      "text": "Mis quelqu’un enceinte ou été enceinte ?"
+    },
+    {
+      "id": 97,
+      "text": "Payé ou été payé pour un acte sexuel ?"
+    },
+    {
+      "id": 98,
+      "text": "Commis un acte de voyeurisme ?",
+      "help": "Le voyeurisme consiste à regarder des personnes dans des situations privées ou sexuelles sans leur consentement."
+    },
+    {
+      "id": 99,
+      "text": "Commis un acte d’inceste ?",
+      "help": "L’inceste désigne une activité sexuelle entre membres proches d’une même famille."
+    },
+    {
+      "id": 100,
+      "text": "Participé à de la bestialité ?",
+      "help": "La bestialité désigne une activité sexuelle impliquant un animal."
+    }
+  ]
+}
