@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Purity Test Localized</title>
     <link rel="icon" href="data:,">
-    <link rel="stylesheet" href="./src/styles.css?v=20260523-multi-language">
+    <link rel="stylesheet" href="./src/styles.css?v=20260523-submit-scroll">
   </head>
   <body>
     <main class="page-shell">
@@ -13,17 +13,25 @@
         <div>
           <h1 id="title">Purity Test Localized</h1>
         </div>
-        <div class="toolbar" aria-label="Test controls">
-          <fieldset class="language-picker">
-            <legend id="language-label">Language</legend>
-            <div id="language-options" class="language-options"></div>
-          </fieldset>
+      </header>
+
+      <section class="language-panel" aria-label="Language controls">
+        <div class="language-panel-head">
+          <label class="field language-search-field">
+            <span id="language-label">Language</span>
+            <input id="language-search" type="search" autocomplete="off">
+          </label>
           <label class="compare-toggle">
             <input id="source-compare" type="checkbox">
             <span id="source-compare-label">Show English source beside translation</span>
           </label>
         </div>
-      </header>
+        <fieldset class="language-picker">
+          <legend class="visually-hidden">Language</legend>
+          <div id="language-options" class="language-options"></div>
+        </fieldset>
+        <div id="selected-languages" class="selected-languages"></div>
+      </section>
 
       <section class="score-panel" aria-label="Score">
         <div>
@@ -34,8 +42,10 @@
           <span id="selected-label" class="metric-label">Selected</span>
           <strong id="selected-count" class="selected-count">0 / 100</strong>
         </div>
-        <button id="submit" type="button">Submit</button>
-        <button id="reset" type="button">Reset</button>
+        <div class="score-actions">
+          <button id="submit" type="button">Submit</button>
+          <button id="reset" class="reset-button" type="button">Reset</button>
+        </div>
       </section>
 
       <section id="result-panel" class="result-panel" hidden>
@@ -53,14 +63,14 @@
         <ol id="item-list" class="item-list"></ol>
       </section>
 
-      <section class="checked-panel">
-        <button id="toggle-checked" type="button">Show checked items</button>
-        <ol id="checked-list" class="checked-list" hidden></ol>
-      </section>
-
       <p id="privacy-note" class="privacy-note"></p>
+
+      <div class="bottom-actions" aria-label="Score actions">
+        <button id="bottom-submit" type="button">Submit</button>
+        <button id="bottom-reset" class="reset-button" type="button">Reset</button>
+      </div>
     </main>
 
-    <script type="module" src="./src/main.js?v=20260523-multi-language"></script>
+    <script type="module" src="./src/main.js?v=20260523-submit-scroll"></script>
   </body>
 </html>

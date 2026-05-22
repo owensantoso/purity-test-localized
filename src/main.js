@@ -1,18 +1,20 @@
 const testDir = "./content/tests/rice-classic";
-const contentVersion = "20260523-multi-language";
+const contentVersion = "20260523-submit-scroll";
 const stateKey = "purity-test-localized:selected-ids";
 const submittedKey = "purity-test-localized:submitted";
-const checkedListVisibleKey = "purity-test-localized:checked-list-visible";
 const languageSelectionKey = "purity-test-localized:selected-languages";
 const sourceCompareKey = "purity-test-localized:source-compare";
 
 const elements = {
   title: document.querySelector("#title"),
   languageLabel: document.querySelector("#language-label"),
+  languageSearch: document.querySelector("#language-search"),
   languageOptions: document.querySelector("#language-options"),
+  selectedLanguages: document.querySelector("#selected-languages"),
   sourceCompare: document.querySelector("#source-compare"),
   sourceCompareLabel: document.querySelector("#source-compare-label"),
   scoreLabel: document.querySelector("#score-label"),
+  scorePanel: document.querySelector(".score-panel"),
   score: document.querySelector("#score"),
   selectedLabel: document.querySelector("#selected-label"),
   selectedCount: document.querySelector("#selected-count"),
@@ -22,12 +24,12 @@ const elements = {
   resultLabel: document.querySelector("#result-label"),
   finalScore: document.querySelector("#final-score"),
   resultBody: document.querySelector("#result-body"),
+  bottomSubmit: document.querySelector("#bottom-submit"),
+  bottomReset: document.querySelector("#bottom-reset"),
   statusPanel: document.querySelector("#status-panel"),
   statusTitle: document.querySelector("#status-title"),
   statusBody: document.querySelector("#status-body"),
   itemList: document.querySelector("#item-list"),
-  toggleChecked: document.querySelector("#toggle-checked"),
-  checkedList: document.querySelector("#checked-list"),
   privacyNote: document.querySelector("#privacy-note")
 };
 
@@ -37,9 +39,9 @@ let sourceContent;
 let contentByLanguage = new Map();
 let selectedLanguageCodes = [];
 let languageRenderToken = 0;
+let languageSearchTerm = "";
 let selectedIds = loadSelectedIds();
 let submitted = localStorage.getItem(submittedKey) === "true";
-let checkedListVisible = localStorage.getItem(checkedListVisibleKey) === "true";
 
 function loadSelectedIds() {
   try {
@@ -58,10 +60,6 @@ function saveSubmitted() {
   localStorage.setItem(submittedKey, String(submitted));
 }
 
-function saveCheckedListVisible() {
-  localStorage.setItem(checkedListVisibleKey, String(checkedListVisible));
-}
-
 function loadSelectedLanguageCodes() {
   try {
     const stored = JSON.parse(localStorage.getItem(languageSelectionKey) || "[]");
@@ -71,8 +69,30 @@ function loadSelectedLanguageCodes() {
   }
 }
 
+function languageCodesFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const rawCodes = params.get("langs") || params.get("lang");
+  if (!rawCodes) {
+    return [];
+  }
+  return rawCodes.split(",").map((code) => code.trim()).filter(Boolean);
+}
+
 function saveSelectedLanguageCodes() {
   localStorage.setItem(languageSelectionKey, JSON.stringify(selectedLanguageCodes));
+}
+
+function updateLanguageUrl() {
+  const url = new URL(window.location.href);
+
+  if (selectedLanguageCodes.length > 0) {
+    url.searchParams.set("langs", selectedLanguageCodes.join(","));
+  } else {
+    url.searchParams.delete("langs");
+  }
+
+  url.searchParams.delete("lang");
+  window.history.replaceState(null, "", url);
 }
 
 function sourceCompareEnabled() {
@@ -96,12 +116,8 @@ function activeLanguageCode() {
   return selectedLanguageCodes[0] || manifest.sourceLanguage;
 }
 
-function activeContent() {
-  return contentByLanguage.get(activeLanguageCode()) || sourceContent;
-}
-
 function strings() {
-  return uiStrings[activeLanguageCode()] || uiStrings.en;
+  return uiStrings.en;
 }
 
 function score() {
@@ -117,7 +133,17 @@ function updateMetrics() {
 function renderLanguageOptions() {
   elements.languageOptions.replaceChildren();
 
-  for (const language of manifest.languages) {
+  const searchTerm = languageSearchTerm.trim().toLowerCase();
+  const visibleLanguages = manifest.languages.filter((language) => {
+    const haystack = [
+      language.code,
+      language.label,
+      language.displayLabel || ""
+    ].join(" ").toLowerCase();
+    return !searchTerm || haystack.includes(searchTerm);
+  });
+
+  for (const language of visibleLanguages) {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.id = `language-${language.code}`;
@@ -144,6 +170,25 @@ function renderLanguageOptions() {
   }
 }
 
+function renderSelectedLanguages() {
+  elements.selectedLanguages.replaceChildren();
+
+  const label = document.createElement("span");
+  label.className = "selected-languages-label";
+  label.textContent = strings().selectedLanguages;
+  elements.selectedLanguages.append(label);
+
+  const codes = selectedLanguageCodes.length > 0 ? selectedLanguageCodes : [manifest.sourceLanguage];
+
+  for (const code of codes) {
+    const chip = document.createElement("span");
+    chip.className = "selected-language-chip";
+    chip.textContent = shortLanguageLabel(code);
+    chip.title = languageLabel(code);
+    elements.selectedLanguages.append(chip);
+  }
+}
+
 function itemById(content, id) {
   return content.items.find((item) => item.id === id);
 }
@@ -155,6 +200,27 @@ function languageByCode(code) {
 function languageLabel(code) {
   const language = languageByCode(code);
   return language?.displayLabel || language?.label || code;
+}
+
+function shortLanguageLabel(code) {
+  const labels = {
+    en: "EN",
+    ja: "JP",
+    vi: "VI",
+    zh: "ZH-S",
+    fr: "FR",
+    es: "ES",
+    hi: "HI",
+    "zh-Hant": "ZH-T",
+    ru: "RU",
+    th: "TH",
+    ko: "KO",
+    id: "ID",
+    pl: "PL",
+    bn: "BN",
+    gu: "GU"
+  };
+  return labels[code] || code.toUpperCase();
 }
 
 function selectedContentRows(id, primaryCode) {
@@ -189,7 +255,8 @@ function renderTranslationStack(id, primaryCode) {
 
     const label = document.createElement("span");
     label.className = "translation-label";
-    label.textContent = languageLabel(row.code);
+    label.textContent = shortLanguageLabel(row.code);
+    label.title = languageLabel(row.code);
 
     const text = document.createElement("span");
     text.textContent = row.item.text;
@@ -235,7 +302,8 @@ function renderHelpText(rows) {
     helpRow.className = "help-row";
 
     const label = document.createElement("strong");
-    label.textContent = languageLabel(row.code);
+    label.textContent = shortLanguageLabel(row.code);
+    label.title = languageLabel(row.code);
 
     const text = document.createElement("span");
     text.textContent = row.help;
@@ -279,7 +347,6 @@ function renderItems() {
       }
       saveSelectedIds();
       updateMetrics();
-      renderCheckedItems();
     });
 
     const primaryText = document.createElement("span");
@@ -333,39 +400,6 @@ function renderItems() {
   }
 }
 
-function renderCheckedItems() {
-  elements.checkedList.replaceChildren();
-  elements.checkedList.hidden = !checkedListVisible;
-
-  if (selectedIds.size === 0) {
-    const empty = document.createElement("li");
-    empty.textContent = strings().noCheckedItems;
-    elements.checkedList.append(empty);
-    return;
-  }
-
-  const checkedItems = sourceContent.items.filter((item) => selectedIds.has(item.id));
-  const showSource = elements.sourceCompare.checked;
-  const selectedContent = firstSelectedContent();
-  const primaryContent = showSource || !selectedContent ? sourceContent : selectedContent;
-  const primaryCode = primaryContent.language;
-
-  for (const sourceItem of checkedItems) {
-    const item = itemById(primaryContent, sourceItem.id) || sourceItem;
-    const row = document.createElement("li");
-    const text = document.createElement("span");
-    text.textContent = item.text;
-    row.append(text);
-
-    const translationStack = renderTranslationStack(item.id, primaryCode);
-    if (translationStack) {
-      row.append(translationStack);
-    }
-
-    elements.checkedList.append(row);
-  }
-}
-
 function renderResult() {
   elements.resultPanel.hidden = !submitted;
 
@@ -379,20 +413,20 @@ function renderResult() {
 
 function renderText() {
   const text = strings();
-  const content = activeContent();
-  document.documentElement.lang = activeLanguageCode();
-  elements.title.textContent = content.title;
+  document.documentElement.lang = manifest.sourceLanguage;
+  elements.title.textContent = sourceContent.title;
   elements.languageLabel.textContent = text.languageLabel;
+  elements.languageSearch.placeholder = text.languageSearch;
+  elements.languageSearch.setAttribute("aria-label", text.languageSearch);
   elements.sourceCompareLabel.textContent = text.sourceCompare;
   elements.scoreLabel.textContent = text.scoreLabel;
   elements.selectedLabel.textContent = text.selectedCount;
   elements.submit.textContent = text.submit;
   elements.reset.textContent = text.reset;
+  elements.bottomSubmit.textContent = text.submit;
+  elements.bottomReset.textContent = text.reset;
   elements.resultLabel.textContent = text.resultLabel;
   elements.resultBody.textContent = text.resultBody;
-  elements.toggleChecked.textContent = !checkedListVisible
-    ? text.showChecked
-    : text.hideChecked;
   elements.privacyNote.textContent = text.privacyNote;
 }
 
@@ -421,10 +455,11 @@ async function setLanguages(codes) {
   }
 
   saveSelectedLanguageCodes();
+  updateLanguageUrl();
   renderLanguageOptions();
+  renderSelectedLanguages();
   renderText();
   renderItems();
-  renderCheckedItems();
   updateMetrics();
 }
 
@@ -436,10 +471,13 @@ async function init() {
   const sourceEntry = manifest.languages.find((language) => language.code === manifest.sourceLanguage);
   sourceContent = await readJson(`${testDir}/${sourceEntry.file}`);
   contentByLanguage.set(sourceContent.language, sourceContent);
+  const urlLanguages = languageCodesFromUrl();
   const storedLanguages = loadSelectedLanguageCodes();
   const browserLanguage = navigator.language;
   const browserCode = manifest.languages.find((language) => browserLanguage === language.code || browserLanguage.startsWith(`${language.code}-`))?.code;
-  selectedLanguageCodes = storedLanguages.length > 0
+  selectedLanguageCodes = urlLanguages.length > 0
+    ? urlLanguages
+    : storedLanguages.length > 0
     ? storedLanguages
     : [browserCode || manifest.sourceLanguage];
   renderLanguageOptions();
@@ -450,39 +488,44 @@ async function init() {
 elements.sourceCompare.addEventListener("change", () => {
   saveSourceCompare();
   renderItems();
-  renderCheckedItems();
 });
 
-elements.submit.addEventListener("click", () => {
+function scrollToResult() {
+  const stickyOffset = elements.scorePanel.getBoundingClientRect().height + 14;
+  const resultTop = elements.resultPanel.getBoundingClientRect().top + window.scrollY;
+  window.scrollTo({
+    top: Math.max(0, resultTop - stickyOffset),
+    behavior: "smooth"
+  });
+}
+
+function submitAnswers() {
   submitted = true;
-  checkedListVisible = true;
   saveSubmitted();
-  saveCheckedListVisible();
   renderText();
-  renderCheckedItems();
   updateMetrics();
-  elements.resultPanel.scrollIntoView({ block: "nearest", behavior: "smooth" });
-});
+  scrollToResult();
+}
 
-elements.reset.addEventListener("click", () => {
+function resetAnswers() {
   selectedIds = new Set();
   submitted = false;
-  checkedListVisible = false;
   saveSelectedIds();
   saveSubmitted();
-  saveCheckedListVisible();
   renderText();
   renderItems();
-  renderCheckedItems();
   updateMetrics();
+}
+
+elements.languageSearch.addEventListener("input", (event) => {
+  languageSearchTerm = event.target.value;
+  renderLanguageOptions();
 });
 
-elements.toggleChecked.addEventListener("click", () => {
-  checkedListVisible = !checkedListVisible;
-  saveCheckedListVisible();
-  renderText();
-  renderCheckedItems();
-});
+elements.submit.addEventListener("click", submitAnswers);
+elements.bottomSubmit.addEventListener("click", submitAnswers);
+elements.reset.addEventListener("click", resetAnswers);
+elements.bottomReset.addEventListener("click", resetAnswers);
 
 init().catch((error) => {
   elements.statusPanel.hidden = false;
