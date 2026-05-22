@@ -1,5 +1,5 @@
 const testDir = "./content/tests/rice-classic";
-const contentVersion = "20260523-polish-language";
+const contentVersion = "20260523-bengali-language";
 const stateKey = "purity-test-localized:selected-ids";
 const submittedKey = "purity-test-localized:submitted";
 const checkedListVisibleKey = "purity-test-localized:checked-list-visible";

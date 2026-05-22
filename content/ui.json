@@ -245,5 +245,24 @@
     "sourceCompare": "Pokaż angielski oryginał obok tłumaczenia",
     "explainItem": "Wyjaśnij to pytanie",
     "hideExplanation": "Ukryj wyjaśnienie"
+  },
+  "bn": {
+    "languageLabel": "ভাষা",
+    "sourcePendingTitle": "মূল প্রশ্নের লেখা এখনো লোড হয়নি।",
+    "sourcePendingBody": "অ্যাপটি সঠিক উৎস তালিকার জন্য প্রস্তুত। আগে ইংরেজি JSON-এ উৎস প্রশ্ন যোগ করুন, তারপর একই ID দিয়ে অনুবাদ যোগ করুন।",
+    "selectedCount": "নির্বাচিত",
+    "scoreLabel": "স্কোর",
+    "submit": "জমা দিন",
+    "resultLabel": "চূড়ান্ত স্কোর",
+    "resultBody": "তোমার স্কোর এবং নির্বাচিত প্রশ্নগুলো এই ব্রাউজারেই সংরক্ষিত থাকে।",
+    "reset": "রিসেট",
+    "showChecked": "নির্বাচিত প্রশ্ন দেখাও",
+    "hideChecked": "নির্বাচিত প্রশ্ন লুকাও",
+    "noCheckedItems": "এখনো কোনো প্রশ্ন নির্বাচিত হয়নি।",
+    "privacyNote": "উত্তরগুলো শুধু এই ব্রাউজারেই রাখা হয়। এই অ্যাপ কোনো ফলাফলের ডেটা পাঠায় না।",
+    "contentStatus": "কনটেন্ট অবস্থা",
+    "sourceCompare": "অনুবাদের পাশে ইংরেজি উৎস দেখাও",
+    "explainItem": "এই প্রশ্নটি ব্যাখ্যা করো",
+    "hideExplanation": "ব্যাখ্যা লুকাও"
   }
 }

@@ -84,6 +84,12 @@
       "label": "Polski",
       "file": "pl.json",
       "status": "ready"
+    },
+    {
+      "code": "bn",
+      "label": "বাংলা",
+      "file": "bn.json",
+      "status": "ready"
     }
   ]
 }
