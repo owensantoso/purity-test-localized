@@ -11,84 +11,105 @@
       "code": "en",
       "label": "English",
       "file": "en.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "English"
     },
     {
       "code": "ja",
       "label": "日本語",
       "file": "ja.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "日本語 (Japanese)"
     },
     {
       "code": "vi",
       "label": "Tiếng Việt",
       "file": "vi.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "Tiếng Việt (Vietnamese)"
     },
     {
       "code": "zh",
       "label": "简体中文",
       "file": "zh.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "简体中文 (Simplified Chinese)"
     },
     {
       "code": "fr",
       "label": "Français",
       "file": "fr.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "Français (French)"
     },
     {
       "code": "es",
       "label": "Español",
       "file": "es.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "Español (Spanish)"
     },
     {
       "code": "hi",
       "label": "हिन्दी",
       "file": "hi.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "हिन्दी (Hindi)"
     },
     {
       "code": "zh-Hant",
       "label": "繁體中文",
       "file": "zh-hant.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "繁體中文 (Traditional Chinese)"
     },
     {
       "code": "ru",
       "label": "Русский",
       "file": "ru.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "Русский (Russian)"
     },
     {
       "code": "th",
       "label": "ไทย",
       "file": "th.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "ไทย (Thai)"
     },
     {
       "code": "ko",
       "label": "한국어",
       "file": "ko.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "한국어 (Korean)"
     },
     {
       "code": "id",
       "label": "Bahasa Indonesia",
       "file": "id.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "Bahasa Indonesia (Indonesian)"
     },
     {
       "code": "pl",
       "label": "Polski",
       "file": "pl.json",
-      "status": "ready"
+      "status": "ready",
+      "displayLabel": "Polski (Polish)"
     },
     {
       "code": "bn",
       "label": "বাংলা",
       "file": "bn.json",
+      "status": "ready",
+      "displayLabel": "বাংলা (Bengali)"
+    },
+    {
+      "code": "gu",
+      "label": "ગુજરાતી",
+      "displayLabel": "ગુજરાતી (Gujarati)",
+      "file": "gu.json",
       "status": "ready"
     }
   ]

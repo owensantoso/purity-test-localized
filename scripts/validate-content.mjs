@@ -111,6 +111,10 @@ for (const language of manifest.languages) {
   if (!knownStatuses.has(language.status)) {
     fail(`${language.code} has unknown status: ${language.status}`);
   }
+
+  if ("displayLabel" in language && (typeof language.displayLabel !== "string" || language.displayLabel.trim().length === 0)) {
+    fail(`${language.code} has invalid displayLabel`);
+  }
 }
 
 const sourceEntry = manifest.languages.find((language) => language.code === manifest.sourceLanguage);
