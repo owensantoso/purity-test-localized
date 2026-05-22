@@ -168,7 +168,7 @@ button:hover {
 
 .item-list,
 .checked-list {
-  padding-left: 1.5rem;
+  padding-left: 3.25rem;
 }
 
 .item-list {
@@ -183,16 +183,20 @@ button:hover {
 
 .item-main {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: 10px;
   align-items: start;
 }
 
 .item-list label {
   display: grid;
-  grid-template-columns: 22px 1fr;
+  grid-template-columns: 24px minmax(0, 1fr);
   gap: 10px;
   align-items: start;
+}
+
+.item-list label span {
+  overflow-wrap: anywhere;
 }
 
 .item-list small {
@@ -256,5 +260,10 @@ button:hover {
 
   .score-panel {
     position: static;
+  }
+
+  .item-list,
+  .checked-list {
+    padding-left: 3rem;
   }
 }
